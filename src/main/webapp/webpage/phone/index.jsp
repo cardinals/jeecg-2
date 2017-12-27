@@ -1,35 +1,42 @@
-<%@ page language="java" import="java.util.*" pageEncoding="utf-8"%>
-<%@ include file="/WEB-INF/taglibs/taglibs.jsp"%>
-
-<!DOCTYPE html>
+<%@ page contentType="text/html;charset=UTF-8" language="java"%>
+<%@include file="/context/mytags.jsp"%>
 <html>
-<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width,user-scalable=no, initial-scale=1">
-    <title>PigCms</title>
-<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0,user-scalable=no"> -->
-<link rel="stylesheet" type="text/css"
-	href="${ctx}/js/phone/css/style.css">
-<%--    <script type="text/javascript" src="${ctx}/js/phone/js/query.min.js" charset="UTF-8"></script> --%>
-<script type="text/javascript" src="${ctx}/js/phone/js/idangerous.swiper.js" charset="UTF-8"></script>
-</head>
 
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="renderer" content="webkit">
+
+<title><t:mutiLang langKey="jeect.platform" /></title>
+
+<meta name="keywords" content="JEECG 企业级快速开发平台">
+<meta name="description" content="JEECG 企业级快速开发平台，她采用强大代码生成，在线开发能力">
+
+<link rel="shortcut icon" href="../../images/favicon.ico">
+<link rel="stylesheet" href="css/style.css">
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/idangerous.swiper.js"></script>
+</head>
 <body>
 	<div class="page" style="margin: 0;">
+		<div style="background-color: #ddd; height: 40">
+			<a href="javascript:;" onClick="history.go(-1)">
+				<h3 style="padding-top: 10">退出</h3>
+			</a>
+		</div>
 		<div class="device">
 			<a class="arrow-left" href="javascript:;"></a> <a class="arrow-right"
 				href="javascript:;"></a>
 			<div class="swiper-container">
 				<div class="swiper-wrapper">
-					<!-- 幻灯片 -->
-					<a href="" class="swiper-slide"> <img src="${ctx}/js/phone/images/slide1.png"
+					<!-- å¹»ç¯ç -->
+					<a href="" class="swiper-slide"> <img src="images/slide1.png"
 						alt="">
-					</a> <a href="" class="swiper-slide"> <img src="${ctx}/js/phone/images/slide2.png"
+					</a> <a href="" class="swiper-slide"> <img src="images/slide2.png"
 						alt="">
-					</a> <a href="" class="swiper-slide"> <img src="${ctx}/js/phone/images/slide3.png"
+					</a> <a href="" class="swiper-slide"> <img src="images/slide3.png"
 						alt="">
-					</a> <a href="" class="swiper-slide"> <img src="${ctx}/js/phone/images/slide4.png"
+					</a> <a href="" class="swiper-slide"> <img src="images/slide4.png"
 						alt="">
 					</a>
 				</div>
@@ -40,264 +47,290 @@
 		</div>
 		<div class="scrollNews">
 			<div class="yy">
-				<!-- 轮播通知 -->
+				<!-- è½®æ­éç¥ -->
 				<div class="tongzhi">
 					<a href="">
 						<div class="tongzhi_pic">
-							<img class="tongzhi_pic1" src="${ctx}/js/phone/images/template_0.png">
+							<img class="tongzhi_pic1" src="images/template_0.png">
 						</div>
 						<div class="tongzhi_txt">
-							<p class="tongzhi_h1">关注万虎网络(http://www.wanhunet.com/)</p>
+							<p class="tongzhi_h1">
+								å³æ³¨ä¸èç½ç»(http://www.wanhunet.com/)</p>
 						</div>
 					</a>
 				</div>
 				<div class="tongzhi">
 					<a href="">
 						<div class="tongzhi_pic">
-							<img class="tongzhi_pic1" src="${ctx}/js/phone/images/template_0.png">
+							<img class="tongzhi_pic1" src="images/template_0.png">
 						</div>
 						<div class="tongzhi_txt">
-							<p class="tongzhi_h1">关注万虎网络(http://www.wanhunet.com/)</p>
+							<p class="tongzhi_h1">
+								å³æ³¨ä¸èç½ç»(http://www.wanhunet.com/)</p>
 						</div>
 					</a>
 				</div>
 				<div class="tongzhi">
 					<a href="">
 						<div class="tongzhi_pic">
-							<img class="tongzhi_pic1" src="${ctx}/js/phone/images/template_0.png">
+							<img class="tongzhi_pic1" src="images/template_0.png">
 						</div>
 						<div class="tongzhi_txt">
-							<p class="tongzhi_h1">关注万虎网络(http://www.wanhunet.com/)</p>
+							<p class="tongzhi_h1">
+								å³æ³¨ä¸èç½ç»(http://www.wanhunet.com/)</p>
 						</div>
 					</a>
 				</div>
 				<div class="tongzhi">
 					<a href="">
 						<div class="tongzhi_pic">
-							<img class="tongzhi_pic1" src="${ctx}/js/phone/images/template_0.png">
+							<img class="tongzhi_pic1" src="images/template_0.png">
 						</div>
 						<div class="tongzhi_txt">
-							<p class="tongzhi_h1">关注万虎网络(http://www.wanhunet.com/)</p>
+							<p class="tongzhi_h1">
+								å³æ³¨ä¸èç½ç»(http://www.wanhunet.com/)</p>
 						</div>
 					</a>
 				</div>
 				<div class="tongzhi">
 					<a href="">
 						<div class="tongzhi_pic">
-							<img class="tongzhi_pic1" src="${ctx}/js/phone/images/template_0.png">
+							<img class="tongzhi_pic1" src="images/template_0.png">
 						</div>
 						<div class="tongzhi_txt">
-							<p class="tongzhi_h1">关注万虎网络(http://www.wanhunet.com/)</p>
+							<p class="tongzhi_h1">
+								å³æ³¨ä¸èç½ç»(http://www.wanhunet.com/)</p>
 						</div>
 					</a>
 				</div>
 				<div class="tongzhi">
 					<a href="">
 						<div class="tongzhi_pic">
-							<img class="tongzhi_pic1" src="${ctx}/js/phone/images/template_0.png">
+							<img class="tongzhi_pic1" src="images/template_0.png">
 						</div>
 						<div class="tongzhi_txt">
-							<p class="tongzhi_h1">关注万虎网络(http://www.wanhunet.com/)</p>
+							<p class="tongzhi_h1">
+								å³æ³¨ä¸èç½ç»(http://www.wanhunet.com/)</p>
 						</div>
 					</a>
 				</div>
 				<div class="tongzhi">
 					<a href="">
 						<div class="tongzhi_pic">
-							<img class="tongzhi_pic1" src="${ctx}/js/phone/images/template_0.png">
+							<img class="tongzhi_pic1" src="images/template_0.png">
 						</div>
 						<div class="tongzhi_txt">
-							<p class="tongzhi_h1">关注万虎网络(http://www.wanhunet.com/)</p>
+							<p class="tongzhi_h1">
+								å³æ³¨ä¸èç½ç»(http://www.wanhunet.com/)</p>
 						</div>
 					</a>
 				</div>
 				<div class="tongzhi">
 					<a href="">
 						<div class="tongzhi_pic">
-							<img class="tongzhi_pic1" src="${ctx}/js/phone/images/template_0.png">
+							<img class="tongzhi_pic1" src="images/template_0.png">
 						</div>
 						<div class="tongzhi_txt">
-							<p class="tongzhi_h1">关注万虎网络(http://www.wanhunet.com/)</p>
+							<p class="tongzhi_h1">
+								å³æ³¨ä¸èç½ç»(http://www.wanhunet.com/)</p>
 						</div>
 					</a>
 				</div>
 				<div class="tongzhi">
 					<a href="">
 						<div class="tongzhi_pic">
-							<img class="tongzhi_pic1" src="${ctx}/js/phone/images/template_0.png">
+							<img class="tongzhi_pic1" src="images/template_0.png">
 						</div>
 						<div class="tongzhi_txt">
-							<p class="tongzhi_h1">关注万虎网络(http://www.wanhunet.com/)</p>
+							<p class="tongzhi_h1">
+								å³æ³¨ä¸èç½ç»(http://www.wanhunet.com/)</p>
 						</div>
 					</a>
 				</div>
 				<div class="tongzhi">
 					<a href="">
 						<div class="tongzhi_pic">
-							<img class="tongzhi_pic1" src="${ctx}/js/phone/images/template_0.png">
+							<img class="tongzhi_pic1" src="images/template_0.png">
 						</div>
 						<div class="tongzhi_txt">
-							<p class="tongzhi_h1">关注万虎网络(http://www.wanhunet.com/)</p>
+							<p class="tongzhi_h1">
+								å³æ³¨ä¸èç½ç»(http://www.wanhunet.com/)</p>
 						</div>
 					</a>
 				</div>
 				<div class="tongzhi">
 					<a href="">
 						<div class="tongzhi_pic">
-							<img class="tongzhi_pic1" src="${ctx}/js/phone/images/template_0.png">
+							<img class="tongzhi_pic1" src="images/template_0.png">
 						</div>
 						<div class="tongzhi_txt">
-							<p class="tongzhi_h1">关注万虎网络(http://www.wanhunet.com/)</p>
+							<p class="tongzhi_h1">
+								å³æ³¨ä¸èç½ç»(http://www.wanhunet.com/)</p>
 						</div>
 					</a>
 				</div>
 				<div class="tongzhi">
 					<a href="">
 						<div class="tongzhi_pic">
-							<img class="tongzhi_pic1" src="${ctx}/js/phone/images/template_0.png">
+							<img class="tongzhi_pic1" src="images/template_0.png">
 						</div>
 						<div class="tongzhi_txt">
-							<p class="tongzhi_h1">关注万虎网络(http://www.wanhunet.com/)</p>
+							<p class="tongzhi_h1">
+								å³æ³¨ä¸èç½ç»(http://www.wanhunet.com/)</p>
 						</div>
 					</a>
 				</div>
 				<div class="tongzhi">
 					<a href="">
 						<div class="tongzhi_pic">
-							<img class="tongzhi_pic1" src="${ctx}/js/phone/images/template_0.png">
+							<img class="tongzhi_pic1" src="images/template_0.png">
 						</div>
 						<div class="tongzhi_txt">
-							<p class="tongzhi_h1">关注万虎网络(http://www.wanhunet.com/)</p>
+							<p class="tongzhi_h1">
+								å³æ³¨ä¸èç½ç»(http://www.wanhunet.com/)</p>
 						</div>
 					</a>
 				</div>
 				<div class="tongzhi">
 					<a href="">
 						<div class="tongzhi_pic">
-							<img class="tongzhi_pic1" src="${ctx}/js/phone/images/template_0.png">
+							<img class="tongzhi_pic1" src="images/template_0.png">
 						</div>
 						<div class="tongzhi_txt">
-							<p class="tongzhi_h1">关注万虎网络(http://www.wanhunet.com/)</p>
+							<p class="tongzhi_h1">
+								å³æ³¨ä¸èç½ç»(http://www.wanhunet.com/)</p>
 						</div>
 					</a>
 				</div>
 				<div class="tongzhi">
 					<a href="">
 						<div class="tongzhi_pic">
-							<img class="tongzhi_pic1" src="${ctx}/js/phone/images/template_0.png">
+							<img class="tongzhi_pic1" src="images/template_0.png">
 						</div>
 						<div class="tongzhi_txt">
-							<p class="tongzhi_h1">关注万虎网络(http://www.wanhunet.com/)</p>
+							<p class="tongzhi_h1">
+								å³æ³¨ä¸èç½ç»(http://www.wanhunet.com/)</p>
 						</div>
 					</a>
 				</div>
 				<div class="tongzhi">
 					<a href="">
 						<div class="tongzhi_pic">
-							<img class="tongzhi_pic1" src="${ctx}/js/phone/images/template_0.png">
+							<img class="tongzhi_pic1" src="images/template_0.png">
 						</div>
 						<div class="tongzhi_txt">
-							<p class="tongzhi_h1">关注万虎网络(http://www.wanhunet.com/)</p>
+							<p class="tongzhi_h1">
+								å³æ³¨ä¸èç½ç»(http://www.wanhunet.com/)</p>
 						</div>
 					</a>
 				</div>
 				<div class="tongzhi">
 					<a href="">
 						<div class="tongzhi_pic">
-							<img class="tongzhi_pic1" src="${ctx}/js/phone/images/template_0.png">
+							<img class="tongzhi_pic1" src="images/template_0.png">
 						</div>
 						<div class="tongzhi_txt">
-							<p class="tongzhi_h1">关注万虎网络(http://www.wanhunet.com/)</p>
+							<p class="tongzhi_h1">
+								å³æ³¨ä¸èç½ç»(http://www.wanhunet.com/)</p>
 						</div>
 					</a>
 				</div>
 				<div class="tongzhi">
 					<a href="">
 						<div class="tongzhi_pic">
-							<img class="tongzhi_pic1" src="${ctx}/js/phone/images/template_0.png">
+							<img class="tongzhi_pic1" src="images/template_0.png">
 						</div>
 						<div class="tongzhi_txt">
-							<p class="tongzhi_h1">关注万虎网络(http://www.wanhunet.com/)</p>
+							<p class="tongzhi_h1">
+								å³æ³¨ä¸èç½ç»(http://www.wanhunet.com/)</p>
 						</div>
 					</a>
 				</div>
 				<div class="tongzhi">
 					<a href="">
 						<div class="tongzhi_pic">
-							<img class="tongzhi_pic1" src="${ctx}/js/phone/images/template_0.png">
+							<img class="tongzhi_pic1" src="images/template_0.png">
 						</div>
 						<div class="tongzhi_txt">
-							<p class="tongzhi_h1">关注万虎网络(http://www.wanhunet.com/)</p>
+							<p class="tongzhi_h1">
+								å³æ³¨ä¸èç½ç»(http://www.wanhunet.com/)</p>
 						</div>
 					</a>
 				</div>
 				<div class="tongzhi">
 					<a href="">
 						<div class="tongzhi_pic">
-							<img class="tongzhi_pic1" src="${ctx}/js/phone/images/template_0.png">
+							<img class="tongzhi_pic1" src="images/template_0.png">
 						</div>
 						<div class="tongzhi_txt">
-							<p class="tongzhi_h1">关注万虎网络(http://www.wanhunet.com/)</p>
+							<p class="tongzhi_h1">
+								å³æ³¨ä¸èç½ç»(http://www.wanhunet.com/)</p>
 						</div>
 					</a>
 				</div>
 				<div class="tongzhi">
 					<a href="">
 						<div class="tongzhi_pic">
-							<img class="tongzhi_pic1" src="${ctx}/js/phone/images/template_0.png">
+							<img class="tongzhi_pic1" src="images/template_0.png">
 						</div>
 						<div class="tongzhi_txt">
-							<p class="tongzhi_h1">关注万虎网络(http://www.wanhunet.com/)</p>
+							<p class="tongzhi_h1">
+								å³æ³¨ä¸èç½ç»(http://www.wanhunet.com/)</p>
 						</div>
 					</a>
 				</div>
 				<div class="tongzhi">
 					<a href="">
 						<div class="tongzhi_pic">
-							<img class="tongzhi_pic1" src="${ctx}/js/phone/images/template_0.png">
+							<img class="tongzhi_pic1" src="images/template_0.png">
 						</div>
 						<div class="tongzhi_txt">
-							<p class="tongzhi_h1">关注万虎网络(http://www.wanhunet.com/)</p>
+							<p class="tongzhi_h1">
+								å³æ³¨ä¸èç½ç»(http://www.wanhunet.com/)</p>
 						</div>
 					</a>
 				</div>
 				<div class="tongzhi">
 					<a href="">
 						<div class="tongzhi_pic">
-							<img class="tongzhi_pic1" src="${ctx}/js/phone/images/template_0.png">
+							<img class="tongzhi_pic1" src="images/template_0.png">
 						</div>
 						<div class="tongzhi_txt">
-							<p class="tongzhi_h1">关注万虎网络(http://www.wanhunet.com/)</p>
+							<p class="tongzhi_h1">
+								å³æ³¨ä¸èç½ç»(http://www.wanhunet.com/)</p>
 						</div>
 					</a>
 				</div>
 				<div class="tongzhi">
 					<a href="">
 						<div class="tongzhi_pic">
-							<img class="tongzhi_pic1" src="${ctx}/js/phone/images/template_0.png">
+							<img class="tongzhi_pic1" src="images/template_0.png">
 						</div>
 						<div class="tongzhi_txt">
-							<p class="tongzhi_h1">关注万虎网络(http://www.wanhunet.com/)</p>
+							<p class="tongzhi_h1">
+								å³æ³¨ä¸èç½ç»(http://www.wanhunet.com/)</p>
 						</div>
 					</a>
 				</div>
 				<div class="tongzhi">
 					<a href="">
 						<div class="tongzhi_pic">
-							<img class="tongzhi_pic1" src="${ctx}/js/phone/images/template_0.png">
+							<img class="tongzhi_pic1" src="images/template_0.png">
 						</div>
 						<div class="tongzhi_txt">
-							<p class="tongzhi_h1">关注万虎网络(http://www.wanhunet.com/)</p>
+							<p class="tongzhi_h1">
+								å³æ³¨ä¸èç½ç»(http://www.wanhunet.com/)</p>
 						</div>
 					</a>
 				</div>
 				<div class="tongzhi">
 					<a href="">
 						<div class="tongzhi_pic">
-							<img class="tongzhi_pic1" src="${ctx}/js/phone/images/template_0.png">
+							<img class="tongzhi_pic1" src="images/template_0.png">
 						</div>
 						<div class="tongzhi_txt">
-							<p class="tongzhi_h1">关注万虎网络(http://www.wanhunet.com/)</p>
+							<p class="tongzhi_h1">
+								å³æ³¨ä¸èç½ç»(http://www.wanhunet.com/)</p>
 						</div>
 					</a>
 				</div>
@@ -309,91 +342,91 @@
 			<div class="gun" style="width: 100%; height: 100px;">
 				<div id="slides">
 					<ul class="slides_container swiper-wrapper" id="ul1" style="">
-						<!-- 顶部栏目 -->
+						<!-- é¡¶é¨æ ç® -->
 						<li class="swiper-slide swiper-slide-visible" style=""><a
 							href="javascript:;" target="_blank">
 								<div class="tub">
-									<img class="tub1" src="${ctx}/js/phone/images/icon1.png" alt="">
+									<img class="tub1" src="images/icon1.png" alt="">
 								</div>
 								<div class="tet">
 									<span>
-										<h2>功能模块</h2> <br> Function Module
+										<h2>åè½æ¨¡å</h2> <br> Function Module
 									</span>
 								</div>
 						</a> <a href="javascript:;" target="_blank">
 								<div class="tub">
-									<img class="tub1" src="${ctx}/js/phone/images/icon2.png" alt="">
+									<img class="tub1" src="images/icon2.png" alt="">
 								</div>
 								<div class="tet">
 									<span>
-										<h2>产品体系</h2> <br> Product System
+										<h2>äº§åä½ç³»</h2> <br> Product System
 									</span>
 								</div>
 						</a> <a href="javascript:;" target="_blank">
 								<div class="tub">
-									<img class="tub1" src="${ctx}/js/phone/images/icon3.png" alt="">
+									<img class="tub1" src="images/icon3.png" alt="">
 								</div>
 								<div class="tet">
 									<span>
-										<h2>行业方案</h2> <br> The solution
+										<h2>è¡ä¸æ¹æ¡</h2> <br> The solution
 									</span>
 								</div>
 						</a> <a href="javascript:;" target="_blank">
 								<div class="tub">
-									<img class="tub1" src="${ctx}/js/phone/images/icon4.png" alt="">
+									<img class="tub1" src="images/icon4.png" alt="">
 								</div>
 								<div class="tet">
 									<span>
-										<h2>售后体系</h2> <br> Customer service system
+										<h2>å®åä½ç³»</h2> <br> Customer service system
 									</span>
 								</div>
 						</a></li>
 						<li class="swiper-slide" style=""><a href="javascript:;"
 							target="_blank">
 								<div class="tub">
-									<img class="tub1" src="${ctx}/js/phone/images/icon5.png" alt="">
+									<img class="tub1" src="images/icon5.png" alt="">
 								</div>
 								<div class="tet">
 									<span>
-										<h2>行业案例</h2>
+										<h2>è¡ä¸æ¡ä¾</h2>
 									</span>
 								</div>
 						</a> <a href="javascript:;" target="_blank">
 								<div class="tub">
-									<img class="tub1" src="${ctx}/js/phone/images/icon6.png" alt="">
+									<img class="tub1" src="images/icon6.png" alt="">
 								</div>
 								<div class="tet">
 									<span>
-										<h2>六大优势</h2>
+										<h2>å­å¤§ä¼å¿</h2>
 									</span>
 								</div>
 						</a> <a href="javascript:;" target="_blank">
 								<div class="tub">
-									<img class="tub1" src="${ctx}/js/phone/images/icon7.png" alt="">
+									<img class="tub1" src="images/icon7.png" alt="">
 								</div>
 								<div class="tet">
 									<span>
-										<h2>开发动态</h2>
+										<h2>å¼åå¨æ</h2>
 									</span>
 								</div>
 						</a> <a href="javascript:;" target="_blank">
 								<div class="tub">
-									<img class="tub1" src="${ctx}/js/phone/images/icon8.png" alt="">
+									<img class="tub1" src="images/icon8.png" alt="">
 								</div>
 								<div class="tet">
 									<span>
-										<h2>关于我们</h2>
+										<h2>å³äºæä»¬</h2>
 									</span>
 								</div>
 						</a></li>
 						<li class="swiper-slide" style=""><a href="javascript:;"
 							target="_blank">
 								<div class="tub">
-									<img class="tub1" src="${ctx}/js/phone/images/icon9.png" alt="">
+									<img class="tub1" src="images/icon9.png" alt="">
 								</div>
 								<div class="tet">
 									<span>
-										<h2>联系我们</h2>
+										<h2>èç³»æä»¬</h2>
 									</span>
 								</div>
 						</a></li>
@@ -408,243 +441,243 @@
 				<li class="active">
 					<div class="newTit clearfix">
 						<div class="fr moreLink">
-							<a href="javascript:;">更多功能<i></i></a>
+							<a href="javascript:;">æ´å¤åè½<i></i></a>
 							<ul>
 								<li><a href="javascript:;"
-									onclick="tagsFilter($(this),'all')">全部功能</a></li>
+									onclick="tagsFilter($(this),'all')">å¨é¨åè½</a></li>
 								<li><a href="javascript:;"
-									onclick="tagsFilter($(this),'new')">最新功能</a></li>
-								<li><a href="javascript:;" onclick="tagsFilter($(this),0)">宣传展示类</a></li>
-								<li><a href="javascript:;" onclick="tagsFilter($(this),1)">推广吸粉类</a></li>
-								<li><a href="javascript:;" onclick="tagsFilter($(this),2)">营销活动类</a></li>
-								<li><a href="javascript:;" onclick="tagsFilter($(this),3)">电商交易类</a></li>
-								<li><a href="javascript:;" onclick="tagsFilter($(this),4)">行业功能类</a></li>
-								<li><a href="javascript:;" onclick="tagsFilter($(this),5)">会员管理类</a></li>
-								<li><a href="javascript:;" onclick="tagsFilter($(this),6)">其他功能类</a></li>
+									onclick="tagsFilter($(this),'new')">ææ°åè½</a></li>
+								<li><a href="javascript:;" onclick="tagsFilter($(this),0)">å®£ä¼ å±ç¤ºç±»</a></li>
+								<li><a href="javascript:;" onclick="tagsFilter($(this),1)">æ¨å¹¿å¸ç²ç±»</a></li>
+								<li><a href="javascript:;" onclick="tagsFilter($(this),2)">è¥éæ´»å¨ç±»</a></li>
+								<li><a href="javascript:;" onclick="tagsFilter($(this),3)">çµåäº¤æç±»</a></li>
+								<li><a href="javascript:;" onclick="tagsFilter($(this),4)">è¡ä¸åè½ç±»</a></li>
+								<li><a href="javascript:;" onclick="tagsFilter($(this),5)">ä¼åç®¡çç±»</a></li>
+								<li><a href="javascript:;" onclick="tagsFilter($(this),6)">å¶ä»åè½ç±»</a></li>
 							</ul>
 						</div>
-						<h3>最新功能</h3>
-						<!-- 所有功能，这里的标题全部动态改变填充 -->
+						<h3>ææ°åè½</h3>
+						<!-- ææåè½ï¼è¿éçæ é¢å¨é¨å¨ææ¹åå¡«å -->
 					</div>
 					<div class="row" style="min-height: 330px;">
-						<!-- 所有功能 -->
+						<!-- ææåè½ -->
 						<a href="" class="item_one" style="display: block;"
-							data-type="all"> <img class="gntub" src="${ctx}/js/phone/images/tu1.png">
+							data-type="all"> <img class="gntub" src="images/tu1.png">
 							<div class="tet2">
-								<span>全部功能</span>
+								<span>å¨é¨åè½</span>
 							</div>
 						</a> <a href="" class="item_one" style="display: block;"
-							data-type="all"> <img class="gntub" src="${ctx}/js/phone/images/tu2.png">
+							data-type="all"> <img class="gntub" src="images/tu2.png">
 							<div class="tet2">
-								<span>全部功能</span>
+								<span>å¨é¨åè½</span>
 							</div>
 						</a> <a href="" class="item_one" style="display: block;"
-							data-type="all"> <img class="gntub" src="${ctx}/js/phone/images/tu3.png">
+							data-type="all"> <img class="gntub" src="images/tu3.png">
 							<div class="tet2">
-								<span>全部功能</span>
+								<span>å¨é¨åè½</span>
 							</div>
 						</a> <a href="" class="item_one" style="display: block;"
-							data-type="all"> <img class="gntub" src="${ctx}/js/phone/images/tu4.png">
+							data-type="all"> <img class="gntub" src="images/tu4.png">
 							<div class="tet2">
-								<span>全部功能</span>
+								<span>å¨é¨åè½</span>
 							</div>
 						</a> <a href="" class="item_one" style="display: block;"
-							data-type="all"> <img class="gntub" src="${ctx}/js/phone/images/tu5.png">
+							data-type="all"> <img class="gntub" src="images/tu5.png">
 							<div class="tet2">
-								<span>全部功能</span>
+								<span>å¨é¨åè½</span>
 							</div>
 						</a> <a href="" class="item_one" style="display: block;"
-							data-type="all"> <img class="gntub" src="${ctx}/js/phone/images/tu1.png">
+							data-type="all"> <img class="gntub" src="images/tu1.png">
 							<div class="tet2">
-								<span>全部功能</span>
+								<span>å¨é¨åè½</span>
 							</div>
 						</a>
 
-						<!--最新功能-->
+						<!--ææ°åè½-->
 						<a href="" class="item_one" style="display: block;" data-new="new">
-							<img class="gntub" src="${ctx}/js/phone/images/tu5.png">
+							<img class="gntub" src="images/tu5.png">
 							<div class="tet2">
-								<span>最新功能</span>
+								<span>ææ°åè½</span>
 							</div>
 						</a> <a href="" class="item_one" style="display: block;"
-							data-new="new"> <img class="gntub" src="${ctx}/js/phone/images/tu5.png">
+							data-new="new"> <img class="gntub" src="images/tu5.png">
 							<div class="tet2">
-								<span>最新功能</span>
+								<span>ææ°åè½</span>
 							</div>
 						</a> <a href="" class="item_one" style="display: block;"
-							data-new="new"> <img class="gntub" src="${ctx}/js/phone/images/tu5.png">
+							data-new="new"> <img class="gntub" src="images/tu5.png">
 							<div class="tet2">
-								<span>最新功能</span>
+								<span>ææ°åè½</span>
 							</div>
 						</a> <a href="" class="item_one" style="display: block;"
-							data-new="new"> <img class="gntub" src="${ctx}/js/phone/images/tu5.png">
+							data-new="new"> <img class="gntub" src="images/tu5.png">
 							<div class="tet2">
-								<span>最新功能</span>
+								<span>ææ°åè½</span>
 							</div>
 						</a> <a href="" class="item_one" style="display: block;"
-							data-new="new"> <img class="gntub" src="${ctx}/js/phone/images/tu5.png">
+							data-new="new"> <img class="gntub" src="images/tu5.png">
 							<div class="tet2">
-								<span>最新功能</span>
+								<span>ææ°åè½</span>
 							</div>
 						</a> <a href="" class="item_one" style="display: block;"
-							data-new="new"> <img class="gntub" src="${ctx}/js/phone/images/tu5.png">
+							data-new="new"> <img class="gntub" src="images/tu5.png">
 							<div class="tet2">
-								<span>最新功能</span>
+								<span>ææ°åè½</span>
 							</div>
 						</a>
-						<!--最新功能 end-->
-						<!--宣传展示类-->
+						<!--ææ°åè½ end-->
+						<!--å®£ä¼ å±ç¤ºç±»-->
 						<a href="" class="item_one" style="display: block;" data-type="0">
-							<img class="gntub" src="${ctx}/js/phone/images/tu2.png">
+							<img class="gntub" src="images/tu2.png">
 							<div class="tet2">
-								<span>宣传展示</span>
+								<span>å®£ä¼ å±ç¤º</span>
 							</div>
 						</a> <a href="" class="item_one" style="display: block;" data-type="0">
-							<img class="gntub" src="${ctx}/js/phone/images/tu2.png">
+							<img class="gntub" src="images/tu2.png">
 							<div class="tet2">
-								<span>宣传展示</span>
+								<span>å®£ä¼ å±ç¤º</span>
 							</div>
 						</a> <a href="" class="item_one" style="display: block;" data-type="0">
-							<img class="gntub" src="${ctx}/js/phone/images/tu2.png">
+							<img class="gntub" src="images/tu2.png">
 							<div class="tet2">
-								<span>宣传展示</span>
+								<span>å®£ä¼ å±ç¤º</span>
 							</div>
 						</a> <a href="" class="item_one" style="display: block;" data-type="0">
-							<img class="gntub" src="${ctx}/js/phone/images/tu2.png">
+							<img class="gntub" src="images/tu2.png">
 							<div class="tet2">
-								<span>宣传展示</span>
+								<span>å®£ä¼ å±ç¤º</span>
 							</div>
 						</a>
-						<!--宣传展示类 end-->
-						<!--推广吸粉类-->
+						<!--å®£ä¼ å±ç¤ºç±» end-->
+						<!--æ¨å¹¿å¸ç²ç±»-->
 						<a href="" class="item_one" style="display: block;" data-type="1">
-							<img class="gntub" src="${ctx}/js/phone/images/tu3.png">
+							<img class="gntub" src="images/tu3.png">
 							<div class="tet2">
-								<span>推广吸粉</span>
+								<span>æ¨å¹¿å¸ç²</span>
 							</div>
 						</a> <a href="" class="item_one" style="display: block;" data-type="1">
-							<img class="gntub" src="${ctx}/js/phone/images/tu3.png">
+							<img class="gntub" src="images/tu3.png">
 							<div class="tet2">
-								<span>推广吸粉</span>
+								<span>æ¨å¹¿å¸ç²</span>
 							</div>
 						</a> <a href="" class="item_one" style="display: block;" data-type="1">
-							<img class="gntub" src="${ctx}/js/phone/images/tu3.png">
+							<img class="gntub" src="images/tu3.png">
 							<div class="tet2">
-								<span>推广吸粉</span>
+								<span>æ¨å¹¿å¸ç²</span>
 							</div>
 						</a> <a href="" class="item_one" style="display: block;" data-type="1">
-							<img class="gntub" src="${ctx}/js/phone/images/tu3.png">
+							<img class="gntub" src="images/tu3.png">
 							<div class="tet2">
-								<span>推广吸粉</span>
+								<span>æ¨å¹¿å¸ç²</span>
 							</div>
 						</a>
-						<!--推广吸粉类 end-->
-						<!--营销活动类-->
+						<!--æ¨å¹¿å¸ç²ç±» end-->
+						<!--è¥éæ´»å¨ç±»-->
 						<a href="" class="item_one" style="display: block;" data-type="2">
-							<img class="gntub" src="${ctx}/js/phone/images/tu4.png">
+							<img class="gntub" src="images/tu4.png">
 							<div class="tet2">
-								<span>推广吸粉</span>
+								<span>æ¨å¹¿å¸ç²</span>
 							</div>
 						</a> <a href="" class="item_one" style="display: block;" data-type="2">
-							<img class="gntub" src="${ctx}/js/phone/images/tu4.png">
+							<img class="gntub" src="images/tu4.png">
 							<div class="tet2">
-								<span>推广吸粉</span>
+								<span>æ¨å¹¿å¸ç²</span>
 							</div>
 						</a>
 
-						<!--营销活动类 end-->
-						<!--电商交易类-->
+						<!--è¥éæ´»å¨ç±» end-->
+						<!--çµåäº¤æç±»-->
 						<a href="" class="item_one" style="display: block;" data-type="3">
-							<img class="gntub" src="${ctx}/js/phone/images/tu1.png">
+							<img class="gntub" src="images/tu1.png">
 							<div class="tet2">
-								<span>寿司大串杀</span>
+								<span>å¯¿å¸å¤§ä¸²æ</span>
 							</div>
 						</a> <a href="" class="item_one" style="display: block;" data-type="3">
-							<img class="gntub" src="${ctx}/js/phone/images/tu1.png">
+							<img class="gntub" src="images/tu1.png">
 							<div class="tet2">
-								<span>电商交易</span>
+								<span>çµåäº¤æ</span>
 							</div>
 						</a> <a href="" class="item_one" style="display: block;" data-type="3">
-							<img class="gntub" src="${ctx}/js/phone/images/tu1.png">
+							<img class="gntub" src="images/tu1.png">
 							<div class="tet2">
-								<span>电商交易</span>
+								<span>çµåäº¤æ</span>
 							</div>
 						</a> <a href="" class="item_one" style="display: block;" data-type="3">
-							<img class="gntub" src="${ctx}/js/phone/images/tu1.png">
+							<img class="gntub" src="images/tu1.png">
 							<div class="tet2">
-								<span>电商交易</span>
+								<span>çµåäº¤æ</span>
 							</div>
 						</a>
-						<!--电商交易类 end-->
-						<!--行业功能类-->
+						<!--çµåäº¤æç±» end-->
+						<!--è¡ä¸åè½ç±»-->
 						<a href="" class="item_one" style="display: block;" data-type="4">
-							<img class="gntub" src="${ctx}/js/phone/images/tu1.png">
+							<img class="gntub" src="images/tu1.png">
 							<div class="tet2">
-								<span>行业功能</span>
+								<span>è¡ä¸åè½</span>
 							</div>
 						</a> <a href="" class="item_one" style="display: block;" data-type="4">
-							<img class="gntub" src="${ctx}/js/phone/images/tu1.png">
+							<img class="gntub" src="images/tu1.png">
 							<div class="tet2">
-								<span>行业功能</span>
+								<span>è¡ä¸åè½</span>
 							</div>
 						</a>
-						<!--行业功能类 end-->
-						<!--会员管理类-->
+						<!--è¡ä¸åè½ç±» end-->
+						<!--ä¼åç®¡çç±»-->
 						<a href="" class="item_one" style="display: block;" data-type="5">
-							<img class="gntub" src="${ctx}/js/phone/images/tu3.png">
+							<img class="gntub" src="images/tu3.png">
 							<div class="tet2">
-								<span>会员管理</span>
+								<span>ä¼åç®¡ç</span>
 							</div>
 						</a> <a href="" class="item_one" style="display: block;" data-type="5">
-							<img class="gntub" src="${ctx}/js/phone/images/tu3.png">
+							<img class="gntub" src="images/tu3.png">
 							<div class="tet2">
-								<span>会员管理</span>
+								<span>ä¼åç®¡ç</span>
 							</div>
 						</a> <a href="" class="item_one" style="display: block;" data-type="5">
-							<img class="gntub" src="${ctx}/js/phone/images/tu3.png">
+							<img class="gntub" src="images/tu3.png">
 							<div class="tet2">
-								<span>会员管理</span>
+								<span>ä¼åç®¡ç</span>
 							</div>
 						</a> <a href="" class="item_one" style="display: block;" data-type="5">
-							<img class="gntub" src="${ctx}/js/phone/images/tu3.png">
+							<img class="gntub" src="images/tu3.png">
 							<div class="tet2">
-								<span>会员管理</span>
+								<span>ä¼åç®¡ç</span>
 							</div>
 						</a>
-						<!--会员管理类 end-->
-						<!--其他功能类-->
+						<!--ä¼åç®¡çç±» end-->
+						<!--å¶ä»åè½ç±»-->
 						<a href="" class="item_one" style="display: block;" data-type="6">
-							<img class="gntub" src="${ctx}/js/phone/images/tu4.png">
+							<img class="gntub" src="images/tu4.png">
 							<div class="tet2">
-								<span>其他功能</span>
+								<span>å¶ä»åè½</span>
 							</div>
 						</a> <a href="" class="item_one" style="display: block;" data-type="6">
-							<img class="gntub" src="${ctx}/js/phone/images/tu4.png">
+							<img class="gntub" src="images/tu4.png">
 							<div class="tet2">
-								<span>其他功能</span>
+								<span>å¶ä»åè½</span>
 							</div>
 						</a> <a href="" class="item_one" style="display: block;" data-type="6">
-							<img class="gntub" src="${ctx}/js/phone/images/tu4.png">
+							<img class="gntub" src="images/tu4.png">
 							<div class="tet2">
-								<span>其他功能</span>
+								<span>å¶ä»åè½</span>
 							</div>
 						</a>
-						<!--其他功能类 end-->
+						<!--å¶ä»åè½ç±» end-->
 					</div>
 					<div class="fixedBar">
 						<div class="SubLinks">
 							<ul>
 								<li><a href="javascript:;"
-									onclick="tagsFilter($(this),'all')">全部功能</a></li>
+									onclick="tagsFilter($(this),'all')">å¨é¨åè½</a></li>
 								<li><a href="javascript:;"
-									onclick="tagsFilter($(this),'new')">最新功能</a></li>
-								<li><a href="javascript:;" onclick="tagsFilter($(this),0)">宣传展示类</a></li>
-								<li><a href="javascript:;" onclick="tagsFilter($(this),1)">推广吸粉类</a></li>
-								<li><a href="javascript:;" onclick="tagsFilter($(this),2)">营销活动类</a></li>
-								<li><a href="javascript:;" onclick="tagsFilter($(this),3)">电商交易类</a></li>
-								<li><a href="javascript:;" onclick="tagsFilter($(this),4)">行业功能类</a></li>
-								<li><a href="javascript:;" onclick="tagsFilter($(this),5)">会员管理类</a></li>
-								<li><a href="javascript:;" onclick="tagsFilter($(this),6)">其他功能类</a></li>
+									onclick="tagsFilter($(this),'new')">ææ°åè½</a></li>
+								<li><a href="javascript:;" onclick="tagsFilter($(this),0)">å®£ä¼ å±ç¤ºç±»</a></li>
+								<li><a href="javascript:;" onclick="tagsFilter($(this),1)">æ¨å¹¿å¸ç²ç±»</a></li>
+								<li><a href="javascript:;" onclick="tagsFilter($(this),2)">è¥éæ´»å¨ç±»</a></li>
+								<li><a href="javascript:;" onclick="tagsFilter($(this),3)">çµåäº¤æç±»</a></li>
+								<li><a href="javascript:;" onclick="tagsFilter($(this),4)">è¡ä¸åè½ç±»</a></li>
+								<li><a href="javascript:;" onclick="tagsFilter($(this),5)">ä¼åç®¡çç±»</a></li>
+								<li><a href="javascript:;" onclick="tagsFilter($(this),6)">å¶ä»åè½ç±»</a></li>
 							</ul>
 							<span class="triangle"></span>
 						</div>
@@ -656,141 +689,141 @@
 						<a href="">
 							<div class="list_onell">
 								<div class="list_one_picll">
-									<img class="banner_pic1" src="${ctx}/js/phone/images/two1.png">
+									<img class="banner_pic1" src="images/two1.png">
 								</div>
 								<div class="list_one_txtll">
-									<h1 class="list_h1ll">二次开发</h1>
+									<h1 class="list_h1ll">äºæ¬¡å¼å</h1>
 									<span></span>
 								</div>
 							</div>
 						</a> <a href="">
 							<div class="list_onell">
 								<div class="list_one_picll">
-									<img class="banner_pic1" src="${ctx}/js/phone/images/two2.png">
+									<img class="banner_pic1" src="images/two2.png">
 								</div>
 								<div class="list_one_txtll">
-									<h1 class="list_h1ll">基础功能</h1>
-									<span>关注回复、文本回复、图文回复等等</span>
+									<h1 class="list_h1ll">åºç¡åè½</h1>
+									<span>å³æ³¨åå¤ãææ¬åå¤ãå¾æåå¤ç­ç­</span>
 								</div>
 							</div>
 						</a> <a href="">
 							<div class="list_onell">
 								<div class="list_one_picll">
-									<img class="banner_pic1" src="${ctx}/js/phone/images/two4.png">
+									<img class="banner_pic1" src="images/two4.png">
 								</div>
 								<div class="list_one_txtll">
-									<h1 class="list_h1ll">微网站</h1>
-									<span>多大几百个模板、底部菜单管理、微场景管理等</span>
+									<h1 class="list_h1ll">å¾®ç½ç«</h1>
+									<span>å¤å¤§å ç¾ä¸ªæ¨¡æ¿ãåºé¨èåç®¡çãå¾®åºæ¯ç®¡çç­</span>
 								</div>
 							</div>
 						</a> <a href="">
 							<div class="list_onell">
 								<div class="list_one_picll">
-									<img class="banner_pic1" src="${ctx}/js/phone/images/two5.png">
+									<img class="banner_pic1" src="images/two5.png">
 								</div>
 								<div class="list_one_txtll">
-									<h1 class="list_h1ll">互动功能</h1>
-									<span>微论坛、留言板、投票、微预约、调研、贺卡邀请函等功能</span>
+									<h1 class="list_h1ll">äºå¨åè½</h1>
+									<span>å¾®è®ºåãçè¨æ¿ãæç¥¨ãå¾®é¢çº¦ãè°ç ãè´ºå¡éè¯·å½ç­åè½</span>
 								</div>
 							</div>
 						</a> <a href="">
 							<div class="list_onell">
 								<div class="list_one_picll">
-									<img class="banner_pic1" src="${ctx}/js/phone/images/two5.png">
+									<img class="banner_pic1" src="images/two5.png">
 								</div>
 								<div class="list_one_txtll">
-									<h1 class="list_h1ll">互动功能</h1>
-									<span>微论坛、留言板、投票、微预约、调研、贺卡邀请函等功能</span>
+									<h1 class="list_h1ll">äºå¨åè½</h1>
+									<span>å¾®è®ºåãçè¨æ¿ãæç¥¨ãå¾®é¢çº¦ãè°ç ãè´ºå¡éè¯·å½ç­åè½</span>
 								</div>
 							</div>
 						</a> <a href="">
 							<div class="list_onell">
 								<div class="list_one_picll">
-									<img class="banner_pic1" src="${ctx}/js/phone/images/two5.png">
+									<img class="banner_pic1" src="images/two5.png">
 								</div>
 								<div class="list_one_txtll">
-									<h1 class="list_h1ll">互动功能</h1>
-									<span>微论坛、留言板、投票、微预约、调研、贺卡邀请函等功能</span>
+									<h1 class="list_h1ll">äºå¨åè½</h1>
+									<span>å¾®è®ºåãçè¨æ¿ãæç¥¨ãå¾®é¢çº¦ãè°ç ãè´ºå¡éè¯·å½ç­åè½</span>
 								</div>
 							</div>
 						</a> <a href="">
 							<div class="list_onell">
 								<div class="list_one_picll">
-									<img class="banner_pic1" src="${ctx}/js/phone/images/two5.png">
+									<img class="banner_pic1" src="images/two5.png">
 								</div>
 								<div class="list_one_txtll">
-									<h1 class="list_h1ll">互动功能</h1>
-									<span>微论坛、留言板、投票、微预约、调研、贺卡邀请函等功能</span>
+									<h1 class="list_h1ll">äºå¨åè½</h1>
+									<span>å¾®è®ºåãçè¨æ¿ãæç¥¨ãå¾®é¢çº¦ãè°ç ãè´ºå¡éè¯·å½ç­åè½</span>
 								</div>
 							</div>
 						</a> <a href="">
 							<div class="list_onell">
 								<div class="list_one_picll">
-									<img class="banner_pic1" src="${ctx}/js/phone/images/two5.png">
+									<img class="banner_pic1" src="images/two5.png">
 								</div>
 								<div class="list_one_txtll">
-									<h1 class="list_h1ll">互动功能</h1>
-									<span>微论坛、留言板、投票、微预约、调研、贺卡邀请函等功能</span>
+									<h1 class="list_h1ll">äºå¨åè½</h1>
+									<span>å¾®è®ºåãçè¨æ¿ãæç¥¨ãå¾®é¢çº¦ãè°ç ãè´ºå¡éè¯·å½ç­åè½</span>
 								</div>
 							</div>
 						</a> <a href="">
 							<div class="list_onell">
 								<div class="list_one_picll">
-									<img class="banner_pic1" src="${ctx}/js/phone/images/two5.png">
+									<img class="banner_pic1" src="images/two5.png">
 								</div>
 								<div class="list_one_txtll">
-									<h1 class="list_h1ll">互动功能</h1>
-									<span>微论坛、留言板、投票、微预约、调研、贺卡邀请函等功能</span>
+									<h1 class="list_h1ll">äºå¨åè½</h1>
+									<span>å¾®è®ºåãçè¨æ¿ãæç¥¨ãå¾®é¢çº¦ãè°ç ãè´ºå¡éè¯·å½ç­åè½</span>
 								</div>
 							</div>
 						</a> <a href="">
 							<div class="list_onell">
 								<div class="list_one_picll">
-									<img class="banner_pic1" src="${ctx}/js/phone/images/two5.png">
+									<img class="banner_pic1" src="images/two5.png">
 								</div>
 								<div class="list_one_txtll">
-									<h1 class="list_h1ll">互动功能</h1>
-									<span>微论坛、留言板、投票、微预约、调研、贺卡邀请函等功能</span>
+									<h1 class="list_h1ll">äºå¨åè½</h1>
+									<span>å¾®è®ºåãçè¨æ¿ãæç¥¨ãå¾®é¢çº¦ãè°ç ãè´ºå¡éè¯·å½ç­åè½</span>
 								</div>
 							</div>
 						</a> <a href="">
 							<div class="list_onell">
 								<div class="list_one_picll">
-									<img class="banner_pic1" src="${ctx}/js/phone/images/two5.png">
+									<img class="banner_pic1" src="images/two5.png">
 								</div>
 								<div class="list_one_txtll">
-									<h1 class="list_h1ll">互动功能</h1>
-									<span>微论坛、留言板、投票、微预约、调研、贺卡邀请函等功能</span>
+									<h1 class="list_h1ll">äºå¨åè½</h1>
+									<span>å¾®è®ºåãçè¨æ¿ãæç¥¨ãå¾®é¢çº¦ãè°ç ãè´ºå¡éè¯·å½ç­åè½</span>
 								</div>
 							</div>
 						</a> <a href="">
 							<div class="list_onell">
 								<div class="list_one_picll">
-									<img class="banner_pic1" src="${ctx}/js/phone/images/two5.png">
+									<img class="banner_pic1" src="images/two5.png">
 								</div>
 								<div class="list_one_txtll">
-									<h1 class="list_h1ll">互动功能</h1>
-									<span>微论坛、留言板、投票、微预约、调研、贺卡邀请函等功能</span>
+									<h1 class="list_h1ll">äºå¨åè½</h1>
+									<span>å¾®è®ºåãçè¨æ¿ãæç¥¨ãå¾®é¢çº¦ãè°ç ãè´ºå¡éè¯·å½ç­åè½</span>
 								</div>
 							</div>
 						</a> <a href="">
 							<div class="list_onell">
 								<div class="list_one_picll">
-									<img class="banner_pic1" src="${ctx}/js/phone/images/two5.png">
+									<img class="banner_pic1" src="images/two5.png">
 								</div>
 								<div class="list_one_txtll">
-									<h1 class="list_h1ll">互动功能</h1>
-									<span>微论坛、留言板、投票、微预约、调研、贺卡邀请函等功能</span>
+									<h1 class="list_h1ll">äºå¨åè½</h1>
+									<span>å¾®è®ºåãçè¨æ¿ãæç¥¨ãå¾®é¢çº¦ãè°ç ãè´ºå¡éè¯·å½ç­åè½</span>
 								</div>
 							</div>
 						</a> <a href="">
 							<div class="list_onell">
 								<div class="list_one_picll">
-									<img class="banner_pic1" src="${ctx}/js/phone/images/two5.png">
+									<img class="banner_pic1" src="images/two5.png">
 								</div>
 								<div class="list_one_txtll">
-									<h1 class="list_h1ll">互动功能</h1>
-									<span>微论坛、留言板、投票、微预约、调研、贺卡邀请函等功能</span>
+									<h1 class="list_h1ll">äºå¨åè½</h1>
+									<span>å¾®è®ºåãçè¨æ¿ãæç¥¨ãå¾®é¢çº¦ãè°ç ãè´ºå¡éè¯·å½ç­åè½</span>
 								</div>
 							</div>
 						</a>
@@ -802,226 +835,226 @@
 						<a href="">
 							<div class="list_onell">
 								<div class="list_one_picll">
-									<img class="banner_pic1" src="${ctx}/js/phone/images/two6.png">
+									<img class="banner_pic1" src="images/two6.png">
 								</div>
 								<div class="list_one_txtll">
-									<h1 class="list_h1ll">公司人员</h1>
+									<h1 class="list_h1ll">å¬å¸äººå</h1>
 								</div>
 							</div>
 						</a> <a href="">
 							<div class="list_onell">
 								<div class="list_one_picll">
-									<img class="banner_pic1" src="${ctx}/js/phone/images/two6.png">
+									<img class="banner_pic1" src="images/two6.png">
 								</div>
 								<div class="list_one_txtll">
-									<h1 class="list_h1ll">公司人员</h1>
+									<h1 class="list_h1ll">å¬å¸äººå</h1>
 								</div>
 							</div>
 						</a> <a href="">
 							<div class="list_onell">
 								<div class="list_one_picll">
-									<img class="banner_pic1" src="${ctx}/js/phone/images/two6.png">
+									<img class="banner_pic1" src="images/two6.png">
 								</div>
 								<div class="list_one_txtll">
-									<h1 class="list_h1ll">公司人员</h1>
+									<h1 class="list_h1ll">å¬å¸äººå</h1>
 								</div>
 							</div>
 						</a> <a href="">
 							<div class="list_onell">
 								<div class="list_one_picll">
-									<img class="banner_pic1" src="${ctx}/js/phone/images/two6.png">
+									<img class="banner_pic1" src="images/two6.png">
 								</div>
 								<div class="list_one_txtll">
-									<h1 class="list_h1ll">公司人员</h1>
+									<h1 class="list_h1ll">å¬å¸äººå</h1>
 								</div>
 							</div>
 						</a> <a href="">
 							<div class="list_onell">
 								<div class="list_one_picll">
-									<img class="banner_pic1" src="${ctx}/js/phone/images/two6.png">
+									<img class="banner_pic1" src="images/two6.png">
 								</div>
 								<div class="list_one_txtll">
-									<h1 class="list_h1ll">公司人员</h1>
+									<h1 class="list_h1ll">å¬å¸äººå</h1>
 								</div>
 							</div>
 						</a> <a href="">
 							<div class="list_onell">
 								<div class="list_one_picll">
-									<img class="banner_pic1" src="${ctx}/js/phone/images/two6.png">
+									<img class="banner_pic1" src="images/two6.png">
 								</div>
 								<div class="list_one_txtll">
-									<h1 class="list_h1ll">公司人员</h1>
+									<h1 class="list_h1ll">å¬å¸äººå</h1>
 								</div>
 							</div>
 						</a> <a href="">
 							<div class="list_onell">
 								<div class="list_one_picll">
-									<img class="banner_pic1" src="${ctx}/js/phone/images/two6.png">
+									<img class="banner_pic1" src="images/two6.png">
 								</div>
 								<div class="list_one_txtll">
-									<h1 class="list_h1ll">公司人员</h1>
+									<h1 class="list_h1ll">å¬å¸äººå</h1>
 								</div>
 							</div>
 						</a> <a href="">
 							<div class="list_onell">
 								<div class="list_one_picll">
-									<img class="banner_pic1" src="${ctx}/js/phone/images/two6.png">
+									<img class="banner_pic1" src="images/two6.png">
 								</div>
 								<div class="list_one_txtll">
-									<h1 class="list_h1ll">公司人员</h1>
+									<h1 class="list_h1ll">å¬å¸äººå</h1>
 								</div>
 							</div>
 						</a> <a href="">
 							<div class="list_onell">
 								<div class="list_one_picll">
-									<img class="banner_pic1" src="${ctx}/js/phone/images/two6.png">
+									<img class="banner_pic1" src="images/two6.png">
 								</div>
 								<div class="list_one_txtll">
-									<h1 class="list_h1ll">公司人员</h1>
+									<h1 class="list_h1ll">å¬å¸äººå</h1>
 								</div>
 							</div>
 						</a> <a href="">
 							<div class="list_onell">
 								<div class="list_one_picll">
-									<img class="banner_pic1" src="${ctx}/js/phone/images/two6.png">
+									<img class="banner_pic1" src="images/two6.png">
 								</div>
 								<div class="list_one_txtll">
-									<h1 class="list_h1ll">公司人员</h1>
+									<h1 class="list_h1ll">å¬å¸äººå</h1>
 								</div>
 							</div>
 						</a> <a href="">
 							<div class="list_onell">
 								<div class="list_one_picll">
-									<img class="banner_pic1" src="${ctx}/js/phone/images/two6.png">
+									<img class="banner_pic1" src="images/two6.png">
 								</div>
 								<div class="list_one_txtll">
-									<h1 class="list_h1ll">公司人员</h1>
+									<h1 class="list_h1ll">å¬å¸äººå</h1>
 								</div>
 							</div>
 						</a> <a href="">
 							<div class="list_onell">
 								<div class="list_one_picll">
-									<img class="banner_pic1" src="${ctx}/js/phone/images/two6.png">
+									<img class="banner_pic1" src="images/two6.png">
 								</div>
 								<div class="list_one_txtll">
-									<h1 class="list_h1ll">公司人员</h1>
+									<h1 class="list_h1ll">å¬å¸äººå</h1>
 								</div>
 							</div>
 						</a> <a href="">
 							<div class="list_onell">
 								<div class="list_one_picll">
-									<img class="banner_pic1" src="${ctx}/js/phone/images/two6.png">
+									<img class="banner_pic1" src="images/two6.png">
 								</div>
 								<div class="list_one_txtll">
-									<h1 class="list_h1ll">公司人员</h1>
+									<h1 class="list_h1ll">å¬å¸äººå</h1>
 								</div>
 							</div>
 						</a> <a href="">
 							<div class="list_onell">
 								<div class="list_one_picll">
-									<img class="banner_pic1" src="${ctx}/js/phone/images/two6.png">
+									<img class="banner_pic1" src="images/two6.png">
 								</div>
 								<div class="list_one_txtll">
-									<h1 class="list_h1ll">公司人员</h1>
+									<h1 class="list_h1ll">å¬å¸äººå</h1>
 								</div>
 							</div>
 						</a> <a href="">
 							<div class="list_onell">
 								<div class="list_one_picll">
-									<img class="banner_pic1" src="${ctx}/js/phone/images/two6.png">
+									<img class="banner_pic1" src="images/two6.png">
 								</div>
 								<div class="list_one_txtll">
-									<h1 class="list_h1ll">公司人员</h1>
+									<h1 class="list_h1ll">å¬å¸äººå</h1>
 								</div>
 							</div>
 						</a> <a href="">
 							<div class="list_onell">
 								<div class="list_one_picll">
-									<img class="banner_pic1" src="${ctx}/js/phone/images/two6.png">
+									<img class="banner_pic1" src="images/two6.png">
 								</div>
 								<div class="list_one_txtll">
-									<h1 class="list_h1ll">公司人员</h1>
+									<h1 class="list_h1ll">å¬å¸äººå</h1>
 								</div>
 							</div>
 						</a> <a href="">
 							<div class="list_onell">
 								<div class="list_one_picll">
-									<img class="banner_pic1" src="${ctx}/js/phone/images/two6.png">
+									<img class="banner_pic1" src="images/two6.png">
 								</div>
 								<div class="list_one_txtll">
-									<h1 class="list_h1ll">公司人员</h1>
+									<h1 class="list_h1ll">å¬å¸äººå</h1>
 								</div>
 							</div>
 						</a> <a href="">
 							<div class="list_onell">
 								<div class="list_one_picll">
-									<img class="banner_pic1" src="${ctx}/js/phone/images/two6.png">
+									<img class="banner_pic1" src="images/two6.png">
 								</div>
 								<div class="list_one_txtll">
-									<h1 class="list_h1ll">公司人员</h1>
+									<h1 class="list_h1ll">å¬å¸äººå</h1>
 								</div>
 							</div>
 						</a> <a href="">
 							<div class="list_onell">
 								<div class="list_one_picll">
-									<img class="banner_pic1" src="${ctx}/js/phone/images/two6.png">
+									<img class="banner_pic1" src="images/two6.png">
 								</div>
 								<div class="list_one_txtll">
-									<h1 class="list_h1ll">公司人员</h1>
+									<h1 class="list_h1ll">å¬å¸äººå</h1>
 								</div>
 							</div>
 						</a> <a href="">
 							<div class="list_onell">
 								<div class="list_one_picll">
-									<img class="banner_pic1" src="${ctx}/js/phone/images/two6.png">
+									<img class="banner_pic1" src="images/two6.png">
 								</div>
 								<div class="list_one_txtll">
-									<h1 class="list_h1ll">公司人员</h1>
+									<h1 class="list_h1ll">å¬å¸äººå</h1>
 								</div>
 							</div>
 						</a> <a href="">
 							<div class="list_onell">
 								<div class="list_one_picll">
-									<img class="banner_pic1" src="${ctx}/js/phone/images/two6.png">
+									<img class="banner_pic1" src="images/two6.png">
 								</div>
 								<div class="list_one_txtll">
-									<h1 class="list_h1ll">公司人员</h1>
+									<h1 class="list_h1ll">å¬å¸äººå</h1>
 								</div>
 							</div>
 						</a> <a href="">
 							<div class="list_onell">
 								<div class="list_one_picll">
-									<img class="banner_pic1" src="${ctx}/js/phone/images/two6.png">
+									<img class="banner_pic1" src="images/two6.png">
 								</div>
 								<div class="list_one_txtll">
-									<h1 class="list_h1ll">公司人员</h1>
+									<h1 class="list_h1ll">å¬å¸äººå</h1>
 								</div>
 							</div>
 						</a> <a href="">
 							<div class="list_onell">
 								<div class="list_one_picll">
-									<img class="banner_pic1" src="${ctx}/js/phone/images/two6.png">
+									<img class="banner_pic1" src="images/two6.png">
 								</div>
 								<div class="list_one_txtll">
-									<h1 class="list_h1ll">公司人员</h1>
+									<h1 class="list_h1ll">å¬å¸äººå</h1>
 								</div>
 							</div>
 						</a> <a href="">
 							<div class="list_onell">
 								<div class="list_one_picll">
-									<img class="banner_pic1" src="${ctx}/js/phone/images/two6.png">
+									<img class="banner_pic1" src="images/two6.png">
 								</div>
 								<div class="list_one_txtll">
-									<h1 class="list_h1ll">公司人员</h1>
+									<h1 class="list_h1ll">å¬å¸äººå</h1>
 								</div>
 							</div>
 						</a> <a href="">
 							<div class="list_onell">
 								<div class="list_one_picll">
-									<img class="banner_pic1" src="${ctx}/js/phone/images/two6.png">
+									<img class="banner_pic1" src="images/two6.png">
 								</div>
 								<div class="list_one_txtll">
-									<h1 class="list_h1ll">公司人员</h1>
+									<h1 class="list_h1ll">å¬å¸äººå</h1>
 								</div>
 							</div>
 						</a>
@@ -1032,37 +1065,41 @@
 						<a href="">
 							<div class="list_onell">
 								<div class="list_one_picll">
-									<img class="banner_pic1" src="${ctx}/js/phone/images/two7.jpg">
+									<img class="banner_pic1" src="images/two7.jpg">
 								</div>
 								<div class="list_one_txtll">
-									<h1 class="list_h1ll">多种培训方式 让您快速成为网站专家</h1>
+									<h1 class="list_h1ll">å¤ç§å¹è®­æ¹å¼
+										è®©æ¨å¿«éæä¸ºç½ç«ä¸å®¶</h1>
 								</div>
 							</div>
 						</a> <a href="">
 							<div class="list_onell">
 								<div class="list_one_picll">
-									<img class="banner_pic1" src="${ctx}/js/phone/images/two7.jpg">
+									<img class="banner_pic1" src="images/two7.jpg">
 								</div>
 								<div class="list_one_txtll">
-									<h1 class="list_h1ll">多种培训方式 让您快速成为网站专家</h1>
+									<h1 class="list_h1ll">å¤ç§å¹è®­æ¹å¼
+										è®©æ¨å¿«éæä¸ºç½ç«ä¸å®¶</h1>
 								</div>
 							</div>
 						</a> <a href="">
 							<div class="list_onell">
 								<div class="list_one_picll">
-									<img class="banner_pic1" src="${ctx}/js/phone/images/two7.jpg">
+									<img class="banner_pic1" src="images/two7.jpg">
 								</div>
 								<div class="list_one_txtll">
-									<h1 class="list_h1ll">多种培训方式 让您快速成为网站专家</h1>
+									<h1 class="list_h1ll">å¤ç§å¹è®­æ¹å¼
+										è®©æ¨å¿«éæä¸ºç½ç«ä¸å®¶</h1>
 								</div>
 							</div>
 						</a> <a href="">
 							<div class="list_onell">
 								<div class="list_one_picll">
-									<img class="banner_pic1" src="${ctx}/js/phone/images/two7.jpg">
+									<img class="banner_pic1" src="images/two7.jpg">
 								</div>
 								<div class="list_one_txtll">
-									<h1 class="list_h1ll">多种培训方式 让您快速成为网站专家</h1>
+									<h1 class="list_h1ll">å¤ç§å¹è®­æ¹å¼
+										è®©æ¨å¿«éæä¸ºç½ç«ä¸å®¶</h1>
 								</div>
 							</div>
 						</a>
@@ -1071,69 +1108,69 @@
 				<li class="pro">
 					<div class="one_itme" id="li_five">
 						<a href="" class="item_one"> <img class="gntub"
-							src="${ctx}/js/phone/images/two8.png">
+							src="images/two8.png">
 							<div class="tet2">
-								<span>微信行业</span>
+								<span>å¾®ä¿¡è¡ä¸</span>
 							</div>
 						</a> <a href="" class="item_one"> <img class="gntub"
-							src="${ctx}/js/phone/images/two8.png">
+							src="images/two8.png">
 							<div class="tet2">
-								<span>微信行业</span>
+								<span>å¾®ä¿¡è¡ä¸</span>
 							</div>
 						</a> <a href="" class="item_one"> <img class="gntub"
-							src="${ctx}/js/phone/images/two8.png">
+							src="images/two8.png">
 							<div class="tet2">
-								<span>微信行业</span>
+								<span>å¾®ä¿¡è¡ä¸</span>
 							</div>
 						</a> <a href="" class="item_one"> <img class="gntub"
-							src="${ctx}/js/phone/images/two8.png">
+							src="images/two8.png">
 							<div class="tet2">
-								<span>微信行业</span>
+								<span>å¾®ä¿¡è¡ä¸</span>
 							</div>
 						</a> <a href="" class="item_one"> <img class="gntub"
-							src="${ctx}/js/phone/images/two8.png">
+							src="images/two8.png">
 							<div class="tet2">
-								<span>微信行业</span>
+								<span>å¾®ä¿¡è¡ä¸</span>
 							</div>
 						</a> <a href="" class="item_one"> <img class="gntub"
-							src="${ctx}/js/phone/images/two8.png">
+							src="images/two8.png">
 							<div class="tet2">
-								<span>微信行业</span>
+								<span>å¾®ä¿¡è¡ä¸</span>
 							</div>
 						</a> <a href="" class="item_one"> <img class="gntub"
-							src="${ctx}/js/phone/images/two8.png">
+							src="images/two8.png">
 							<div class="tet2">
-								<span>微信行业</span>
+								<span>å¾®ä¿¡è¡ä¸</span>
 							</div>
 						</a> <a href="" class="item_one"> <img class="gntub"
-							src="${ctx}/js/phone/images/two8.png">
+							src="images/two8.png">
 							<div class="tet2">
-								<span>微信行业</span>
+								<span>å¾®ä¿¡è¡ä¸</span>
 							</div>
 						</a> <a href="" class="item_one"> <img class="gntub"
-							src="${ctx}/js/phone/images/two8.png">
+							src="images/two8.png">
 							<div class="tet2">
-								<span>微信行业</span>
+								<span>å¾®ä¿¡è¡ä¸</span>
 							</div>
 						</a> <a href="" class="item_one"> <img class="gntub"
-							src="${ctx}/js/phone/images/two8.png">
+							src="images/two8.png">
 							<div class="tet2">
-								<span>微信行业</span>
+								<span>å¾®ä¿¡è¡ä¸</span>
 							</div>
 						</a> <a href="" class="item_one"> <img class="gntub"
-							src="${ctx}/js/phone/images/two8.png">
+							src="images/two8.png">
 							<div class="tet2">
-								<span>微信行业</span>
+								<span>å¾®ä¿¡è¡ä¸</span>
 							</div>
 						</a> <a href="" class="item_one"> <img class="gntub"
-							src="${ctx}/js/phone/images/two8.png">
+							src="images/two8.png">
 							<div class="tet2">
-								<span>微信行业</span>
+								<span>å¾®ä¿¡è¡ä¸</span>
 							</div>
 						</a> <a href="" class="item_one"> <img class="gntub"
-							src="${ctx}/js/phone/images/two8.png">
+							src="images/two8.png">
 							<div class="tet2">
-								<span>微信行业</span>
+								<span>å¾®ä¿¡è¡ä¸</span>
 							</div>
 						</a>
 					</div>
@@ -1143,55 +1180,55 @@
 						<a href="">
 							<div class="list_one">
 								<div class="list_one_pic">
-									<img class="banner_pic1" src="${ctx}/js/phone/images/two9.png">
+									<img class="banner_pic1" src="images/two9.png">
 								</div>
 								<div class="list_one_txt">
-									<h1 class="list_h1sz" style="width: 96%;">一次性低价投入，无限制使用</h1>
+									<h1 class="list_h1sz" style="width: 96%;">ä¸æ¬¡æ§ä½ä»·æå¥ï¼æ éå¶ä½¿ç¨</h1>
 								</div>
 							</div>
 						</a> <a href="">
 							<div class="list_one">
 								<div class="list_one_pic">
-									<img class="banner_pic1" src="${ctx}/js/phone/images/two9.png">
+									<img class="banner_pic1" src="images/two9.png">
 								</div>
 								<div class="list_one_txt">
-									<h1 class="list_h1sz" style="width: 96%;">一次性低价投入，无限制使用</h1>
+									<h1 class="list_h1sz" style="width: 96%;">ä¸æ¬¡æ§ä½ä»·æå¥ï¼æ éå¶ä½¿ç¨</h1>
 								</div>
 							</div>
 						</a> <a href="">
 							<div class="list_one">
 								<div class="list_one_pic">
-									<img class="banner_pic1" src="${ctx}/js/phone/images/two9.png">
+									<img class="banner_pic1" src="images/two9.png">
 								</div>
 								<div class="list_one_txt">
-									<h1 class="list_h1sz" style="width: 96%;">一次性低价投入，无限制使用</h1>
+									<h1 class="list_h1sz" style="width: 96%;">ä¸æ¬¡æ§ä½ä»·æå¥ï¼æ éå¶ä½¿ç¨</h1>
 								</div>
 							</div>
 						</a> <a href="">
 							<div class="list_one">
 								<div class="list_one_pic">
-									<img class="banner_pic1" src="${ctx}/js/phone/images/two9.png">
+									<img class="banner_pic1" src="images/two9.png">
 								</div>
 								<div class="list_one_txt">
-									<h1 class="list_h1sz" style="width: 96%;">一次性低价投入，无限制使用</h1>
+									<h1 class="list_h1sz" style="width: 96%;">ä¸æ¬¡æ§ä½ä»·æå¥ï¼æ éå¶ä½¿ç¨</h1>
 								</div>
 							</div>
 						</a> <a href="">
 							<div class="list_one">
 								<div class="list_one_pic">
-									<img class="banner_pic1" src="${ctx}/js/phone/images/two9.png">
+									<img class="banner_pic1" src="images/two9.png">
 								</div>
 								<div class="list_one_txt">
-									<h1 class="list_h1sz" style="width: 96%;">一次性低价投入，无限制使用</h1>
+									<h1 class="list_h1sz" style="width: 96%;">ä¸æ¬¡æ§ä½ä»·æå¥ï¼æ éå¶ä½¿ç¨</h1>
 								</div>
 							</div>
 						</a> <a href="">
 							<div class="list_one">
 								<div class="list_one_pic">
-									<img class="banner_pic1" src="${ctx}/js/phone/images/two9.png">
+									<img class="banner_pic1" src="images/two9.png">
 								</div>
 								<div class="list_one_txt">
-									<h1 class="list_h1sz" style="width: 96%;">一次性低价投入，无限制使用</h1>
+									<h1 class="list_h1sz" style="width: 96%;">ä¸æ¬¡æ§ä½ä»·æå¥ï¼æ éå¶ä½¿ç¨</h1>
 								</div>
 							</div>
 						</a>
@@ -1202,442 +1239,442 @@
 						<a href="">
 							<div class="list_onell">
 								<div class="list_one_picll">
-									<img class="banner_pic1" src="${ctx}/js/phone/images/img1.png">
+									<img class="banner_pic1" src="images/img1.png">
 								</div>
 								<div class="list_one_txtll">
-									<h1 class="list_h1lls">可别错过了这些精彩片段</h1>
+									<h1 class="list_h1lls">å¯å«éè¿äºè¿äºç²¾å½©çæ®µ</h1>
 								</div>
 							</div>
 						</a> <a href="">
 							<div class="list_onell">
 								<div class="list_one_picll">
-									<img class="banner_pic1" src="${ctx}/js/phone/images/img1.png">
+									<img class="banner_pic1" src="images/img1.png">
 								</div>
 								<div class="list_one_txtll">
-									<h1 class="list_h1lls">可别错过了这些精彩片段</h1>
+									<h1 class="list_h1lls">å¯å«éè¿äºè¿äºç²¾å½©çæ®µ</h1>
 								</div>
 							</div>
 						</a> <a href="">
 							<div class="list_onell">
 								<div class="list_one_picll">
-									<img class="banner_pic1" src="${ctx}/js/phone/images/img1.png">
+									<img class="banner_pic1" src="images/img1.png">
 								</div>
 								<div class="list_one_txtll">
-									<h1 class="list_h1lls">可别错过了这些精彩片段</h1>
+									<h1 class="list_h1lls">å¯å«éè¿äºè¿äºç²¾å½©çæ®µ</h1>
 								</div>
 							</div>
 						</a> <a href="">
 							<div class="list_onell">
 								<div class="list_one_picll">
-									<img class="banner_pic1" src="${ctx}/js/phone/images/img1.png">
+									<img class="banner_pic1" src="images/img1.png">
 								</div>
 								<div class="list_one_txtll">
-									<h1 class="list_h1lls">可别错过了这些精彩片段</h1>
+									<h1 class="list_h1lls">å¯å«éè¿äºè¿äºç²¾å½©çæ®µ</h1>
 								</div>
 							</div>
 						</a> <a href="">
 							<div class="list_onell">
 								<div class="list_one_picll">
-									<img class="banner_pic1" src="${ctx}/js/phone/images/img1.png">
+									<img class="banner_pic1" src="images/img1.png">
 								</div>
 								<div class="list_one_txtll">
-									<h1 class="list_h1lls">可别错过了这些精彩片段</h1>
+									<h1 class="list_h1lls">å¯å«éè¿äºè¿äºç²¾å½©çæ®µ</h1>
 								</div>
 							</div>
 						</a> <a href="">
 							<div class="list_onell">
 								<div class="list_one_picll">
-									<img class="banner_pic1" src="${ctx}/js/phone/images/img1.png">
+									<img class="banner_pic1" src="images/img1.png">
 								</div>
 								<div class="list_one_txtll">
-									<h1 class="list_h1lls">可别错过了这些精彩片段</h1>
+									<h1 class="list_h1lls">å¯å«éè¿äºè¿äºç²¾å½©çæ®µ</h1>
 								</div>
 							</div>
 						</a> <a href="">
 							<div class="list_onell">
 								<div class="list_one_picll">
-									<img class="banner_pic1" src="${ctx}/js/phone/images/img1.png">
+									<img class="banner_pic1" src="images/img1.png">
 								</div>
 								<div class="list_one_txtll">
-									<h1 class="list_h1lls">可别错过了这些精彩片段</h1>
+									<h1 class="list_h1lls">å¯å«éè¿äºè¿äºç²¾å½©çæ®µ</h1>
 								</div>
 							</div>
 						</a> <a href="">
 							<div class="list_onell">
 								<div class="list_one_picll">
-									<img class="banner_pic1" src="${ctx}/js/phone/images/img1.png">
+									<img class="banner_pic1" src="images/img1.png">
 								</div>
 								<div class="list_one_txtll">
-									<h1 class="list_h1lls">可别错过了这些精彩片段</h1>
+									<h1 class="list_h1lls">å¯å«éè¿äºè¿äºç²¾å½©çæ®µ</h1>
 								</div>
 							</div>
 						</a> <a href="">
 							<div class="list_onell">
 								<div class="list_one_picll">
-									<img class="banner_pic1" src="${ctx}/js/phone/images/img1.png">
+									<img class="banner_pic1" src="images/img1.png">
 								</div>
 								<div class="list_one_txtll">
-									<h1 class="list_h1lls">可别错过了这些精彩片段</h1>
+									<h1 class="list_h1lls">å¯å«éè¿äºè¿äºç²¾å½©çæ®µ</h1>
 								</div>
 							</div>
 						</a> <a href="">
 							<div class="list_onell">
 								<div class="list_one_picll">
-									<img class="banner_pic1" src="${ctx}/js/phone/images/img1.png">
+									<img class="banner_pic1" src="images/img1.png">
 								</div>
 								<div class="list_one_txtll">
-									<h1 class="list_h1lls">可别错过了这些精彩片段</h1>
+									<h1 class="list_h1lls">å¯å«éè¿äºè¿äºç²¾å½©çæ®µ</h1>
 								</div>
 							</div>
 						</a> <a href="">
 							<div class="list_onell">
 								<div class="list_one_picll">
-									<img class="banner_pic1" src="${ctx}/js/phone/images/img1.png">
+									<img class="banner_pic1" src="images/img1.png">
 								</div>
 								<div class="list_one_txtll">
-									<h1 class="list_h1lls">可别错过了这些精彩片段</h1>
+									<h1 class="list_h1lls">å¯å«éè¿äºè¿äºç²¾å½©çæ®µ</h1>
 								</div>
 							</div>
 						</a> <a href="">
 							<div class="list_onell">
 								<div class="list_one_picll">
-									<img class="banner_pic1" src="${ctx}/js/phone/images/img1.png">
+									<img class="banner_pic1" src="images/img1.png">
 								</div>
 								<div class="list_one_txtll">
-									<h1 class="list_h1lls">可别错过了这些精彩片段</h1>
+									<h1 class="list_h1lls">å¯å«éè¿äºè¿äºç²¾å½©çæ®µ</h1>
 								</div>
 							</div>
 						</a> <a href="">
 							<div class="list_onell">
 								<div class="list_one_picll">
-									<img class="banner_pic1" src="${ctx}/js/phone/images/img1.png">
+									<img class="banner_pic1" src="images/img1.png">
 								</div>
 								<div class="list_one_txtll">
-									<h1 class="list_h1lls">可别错过了这些精彩片段</h1>
+									<h1 class="list_h1lls">å¯å«éè¿äºè¿äºç²¾å½©çæ®µ</h1>
 								</div>
 							</div>
 						</a> <a href="">
 							<div class="list_onell">
 								<div class="list_one_picll">
-									<img class="banner_pic1" src="${ctx}/js/phone/images/img1.png">
+									<img class="banner_pic1" src="images/img1.png">
 								</div>
 								<div class="list_one_txtll">
-									<h1 class="list_h1lls">可别错过了这些精彩片段</h1>
+									<h1 class="list_h1lls">å¯å«éè¿äºè¿äºç²¾å½©çæ®µ</h1>
 								</div>
 							</div>
 						</a> <a href="">
 							<div class="list_onell">
 								<div class="list_one_picll">
-									<img class="banner_pic1" src="${ctx}/js/phone/images/img1.png">
+									<img class="banner_pic1" src="images/img1.png">
 								</div>
 								<div class="list_one_txtll">
-									<h1 class="list_h1lls">可别错过了这些精彩片段</h1>
+									<h1 class="list_h1lls">å¯å«éè¿äºè¿äºç²¾å½©çæ®µ</h1>
 								</div>
 							</div>
 						</a> <a href="">
 							<div class="list_onell">
 								<div class="list_one_picll">
-									<img class="banner_pic1" src="${ctx}/js/phone/images/img1.png">
+									<img class="banner_pic1" src="images/img1.png">
 								</div>
 								<div class="list_one_txtll">
-									<h1 class="list_h1lls">可别错过了这些精彩片段</h1>
+									<h1 class="list_h1lls">å¯å«éè¿äºè¿äºç²¾å½©çæ®µ</h1>
 								</div>
 							</div>
 						</a> <a href="">
 							<div class="list_onell">
 								<div class="list_one_picll">
-									<img class="banner_pic1" src="${ctx}/js/phone/images/img1.png">
+									<img class="banner_pic1" src="images/img1.png">
 								</div>
 								<div class="list_one_txtll">
-									<h1 class="list_h1lls">可别错过了这些精彩片段</h1>
+									<h1 class="list_h1lls">å¯å«éè¿äºè¿äºç²¾å½©çæ®µ</h1>
 								</div>
 							</div>
 						</a> <a href="">
 							<div class="list_onell">
 								<div class="list_one_picll">
-									<img class="banner_pic1" src="${ctx}/js/phone/images/img1.png">
+									<img class="banner_pic1" src="images/img1.png">
 								</div>
 								<div class="list_one_txtll">
-									<h1 class="list_h1lls">可别错过了这些精彩片段</h1>
+									<h1 class="list_h1lls">å¯å«éè¿äºè¿äºç²¾å½©çæ®µ</h1>
 								</div>
 							</div>
 						</a> <a href="">
 							<div class="list_onell">
 								<div class="list_one_picll">
-									<img class="banner_pic1" src="${ctx}/js/phone/images/img1.png">
+									<img class="banner_pic1" src="images/img1.png">
 								</div>
 								<div class="list_one_txtll">
-									<h1 class="list_h1lls">可别错过了这些精彩片段</h1>
+									<h1 class="list_h1lls">å¯å«éè¿äºè¿äºç²¾å½©çæ®µ</h1>
 								</div>
 							</div>
 						</a> <a href="">
 							<div class="list_onell">
 								<div class="list_one_picll">
-									<img class="banner_pic1" src="${ctx}/js/phone/images/img1.png">
+									<img class="banner_pic1" src="images/img1.png">
 								</div>
 								<div class="list_one_txtll">
-									<h1 class="list_h1lls">可别错过了这些精彩片段</h1>
+									<h1 class="list_h1lls">å¯å«éè¿äºè¿äºç²¾å½©çæ®µ</h1>
 								</div>
 							</div>
 						</a> <a href="">
 							<div class="list_onell">
 								<div class="list_one_picll">
-									<img class="banner_pic1" src="${ctx}/js/phone/images/img1.png">
+									<img class="banner_pic1" src="images/img1.png">
 								</div>
 								<div class="list_one_txtll">
-									<h1 class="list_h1lls">可别错过了这些精彩片段</h1>
+									<h1 class="list_h1lls">å¯å«éè¿äºè¿äºç²¾å½©çæ®µ</h1>
 								</div>
 							</div>
 						</a> <a href="">
 							<div class="list_onell">
 								<div class="list_one_picll">
-									<img class="banner_pic1" src="${ctx}/js/phone/images/img1.png">
+									<img class="banner_pic1" src="images/img1.png">
 								</div>
 								<div class="list_one_txtll">
-									<h1 class="list_h1lls">可别错过了这些精彩片段</h1>
+									<h1 class="list_h1lls">å¯å«éè¿äºè¿äºç²¾å½©çæ®µ</h1>
 								</div>
 							</div>
 						</a> <a href="">
 							<div class="list_onell">
 								<div class="list_one_picll">
-									<img class="banner_pic1" src="${ctx}/js/phone/images/img1.png">
+									<img class="banner_pic1" src="images/img1.png">
 								</div>
 								<div class="list_one_txtll">
-									<h1 class="list_h1lls">可别错过了这些精彩片段</h1>
+									<h1 class="list_h1lls">å¯å«éè¿äºè¿äºç²¾å½©çæ®µ</h1>
 								</div>
 							</div>
 						</a> <a href="">
 							<div class="list_onell">
 								<div class="list_one_picll">
-									<img class="banner_pic1" src="${ctx}/js/phone/images/img1.png">
+									<img class="banner_pic1" src="images/img1.png">
 								</div>
 								<div class="list_one_txtll">
-									<h1 class="list_h1lls">可别错过了这些精彩片段</h1>
+									<h1 class="list_h1lls">å¯å«éè¿äºè¿äºç²¾å½©çæ®µ</h1>
 								</div>
 							</div>
 						</a> <a href="">
 							<div class="list_onell">
 								<div class="list_one_picll">
-									<img class="banner_pic1" src="${ctx}/js/phone/images/img1.png">
+									<img class="banner_pic1" src="images/img1.png">
 								</div>
 								<div class="list_one_txtll">
-									<h1 class="list_h1lls">可别错过了这些精彩片段</h1>
+									<h1 class="list_h1lls">å¯å«éè¿äºè¿äºç²¾å½©çæ®µ</h1>
 								</div>
 							</div>
 						</a> <a href="">
 							<div class="list_onell">
 								<div class="list_one_picll">
-									<img class="banner_pic1" src="${ctx}/js/phone/images/img1.png">
+									<img class="banner_pic1" src="images/img1.png">
 								</div>
 								<div class="list_one_txtll">
-									<h1 class="list_h1lls">可别错过了这些精彩片段</h1>
+									<h1 class="list_h1lls">å¯å«éè¿äºè¿äºç²¾å½©çæ®µ</h1>
 								</div>
 							</div>
 						</a> <a href="">
 							<div class="list_onell">
 								<div class="list_one_picll">
-									<img class="banner_pic1" src="${ctx}/js/phone/images/img1.png">
+									<img class="banner_pic1" src="images/img1.png">
 								</div>
 								<div class="list_one_txtll">
-									<h1 class="list_h1lls">可别错过了这些精彩片段</h1>
+									<h1 class="list_h1lls">å¯å«éè¿äºè¿äºç²¾å½©çæ®µ</h1>
 								</div>
 							</div>
 						</a> <a href="">
 							<div class="list_onell">
 								<div class="list_one_picll">
-									<img class="banner_pic1" src="${ctx}/js/phone/images/img1.png">
+									<img class="banner_pic1" src="images/img1.png">
 								</div>
 								<div class="list_one_txtll">
-									<h1 class="list_h1lls">可别错过了这些精彩片段</h1>
+									<h1 class="list_h1lls">å¯å«éè¿äºè¿äºç²¾å½©çæ®µ</h1>
 								</div>
 							</div>
 						</a> <a href="">
 							<div class="list_onell">
 								<div class="list_one_picll">
-									<img class="banner_pic1" src="${ctx}/js/phone/images/img1.png">
+									<img class="banner_pic1" src="images/img1.png">
 								</div>
 								<div class="list_one_txtll">
-									<h1 class="list_h1lls">可别错过了这些精彩片段</h1>
+									<h1 class="list_h1lls">å¯å«éè¿äºè¿äºç²¾å½©çæ®µ</h1>
 								</div>
 							</div>
 						</a> <a href="">
 							<div class="list_onell">
 								<div class="list_one_picll">
-									<img class="banner_pic1" src="${ctx}/js/phone/images/img1.png">
+									<img class="banner_pic1" src="images/img1.png">
 								</div>
 								<div class="list_one_txtll">
-									<h1 class="list_h1lls">可别错过了这些精彩片段</h1>
+									<h1 class="list_h1lls">å¯å«éè¿äºè¿äºç²¾å½©çæ®µ</h1>
 								</div>
 							</div>
 						</a> <a href="">
 							<div class="list_onell">
 								<div class="list_one_picll">
-									<img class="banner_pic1" src="${ctx}/js/phone/images/img1.png">
+									<img class="banner_pic1" src="images/img1.png">
 								</div>
 								<div class="list_one_txtll">
-									<h1 class="list_h1lls">可别错过了这些精彩片段</h1>
+									<h1 class="list_h1lls">å¯å«éè¿äºè¿äºç²¾å½©çæ®µ</h1>
 								</div>
 							</div>
 						</a> <a href="">
 							<div class="list_onell">
 								<div class="list_one_picll">
-									<img class="banner_pic1" src="${ctx}/js/phone/images/img1.png">
+									<img class="banner_pic1" src="images/img1.png">
 								</div>
 								<div class="list_one_txtll">
-									<h1 class="list_h1lls">可别错过了这些精彩片段</h1>
+									<h1 class="list_h1lls">å¯å«éè¿äºè¿äºç²¾å½©çæ®µ</h1>
 								</div>
 							</div>
 						</a> <a href="">
 							<div class="list_onell">
 								<div class="list_one_picll">
-									<img class="banner_pic1" src="${ctx}/js/phone/images/img1.png">
+									<img class="banner_pic1" src="images/img1.png">
 								</div>
 								<div class="list_one_txtll">
-									<h1 class="list_h1lls">可别错过了这些精彩片段</h1>
+									<h1 class="list_h1lls">å¯å«éè¿äºè¿äºç²¾å½©çæ®µ</h1>
 								</div>
 							</div>
 						</a> <a href="">
 							<div class="list_onell">
 								<div class="list_one_picll">
-									<img class="banner_pic1" src="${ctx}/js/phone/images/img1.png">
+									<img class="banner_pic1" src="images/img1.png">
 								</div>
 								<div class="list_one_txtll">
-									<h1 class="list_h1lls">可别错过了这些精彩片段</h1>
+									<h1 class="list_h1lls">å¯å«éè¿äºè¿äºç²¾å½©çæ®µ</h1>
 								</div>
 							</div>
 						</a> <a href="">
 							<div class="list_onell">
 								<div class="list_one_picll">
-									<img class="banner_pic1" src="${ctx}/js/phone/images/img1.png">
+									<img class="banner_pic1" src="images/img1.png">
 								</div>
 								<div class="list_one_txtll">
-									<h1 class="list_h1lls">可别错过了这些精彩片段</h1>
+									<h1 class="list_h1lls">å¯å«éè¿äºè¿äºç²¾å½©çæ®µ</h1>
 								</div>
 							</div>
 						</a> <a href="">
 							<div class="list_onell">
 								<div class="list_one_picll">
-									<img class="banner_pic1" src="${ctx}/js/phone/images/img1.png">
+									<img class="banner_pic1" src="images/img1.png">
 								</div>
 								<div class="list_one_txtll">
-									<h1 class="list_h1lls">可别错过了这些精彩片段</h1>
+									<h1 class="list_h1lls">å¯å«éè¿äºè¿äºç²¾å½©çæ®µ</h1>
 								</div>
 							</div>
 						</a> <a href="">
 							<div class="list_onell">
 								<div class="list_one_picll">
-									<img class="banner_pic1" src="${ctx}/js/phone/images/img1.png">
+									<img class="banner_pic1" src="images/img1.png">
 								</div>
 								<div class="list_one_txtll">
-									<h1 class="list_h1lls">可别错过了这些精彩片段</h1>
+									<h1 class="list_h1lls">å¯å«éè¿äºè¿äºç²¾å½©çæ®µ</h1>
 								</div>
 							</div>
 						</a> <a href="">
 							<div class="list_onell">
 								<div class="list_one_picll">
-									<img class="banner_pic1" src="${ctx}/js/phone/images/img1.png">
+									<img class="banner_pic1" src="images/img1.png">
 								</div>
 								<div class="list_one_txtll">
-									<h1 class="list_h1lls">可别错过了这些精彩片段</h1>
+									<h1 class="list_h1lls">å¯å«éè¿äºè¿äºç²¾å½©çæ®µ</h1>
 								</div>
 							</div>
 						</a> <a href="">
 							<div class="list_onell">
 								<div class="list_one_picll">
-									<img class="banner_pic1" src="${ctx}/js/phone/images/img1.png">
+									<img class="banner_pic1" src="images/img1.png">
 								</div>
 								<div class="list_one_txtll">
-									<h1 class="list_h1lls">可别错过了这些精彩片段</h1>
+									<h1 class="list_h1lls">å¯å«éè¿äºè¿äºç²¾å½©çæ®µ</h1>
 								</div>
 							</div>
 						</a> <a href="">
 							<div class="list_onell">
 								<div class="list_one_picll">
-									<img class="banner_pic1" src="${ctx}/js/phone/images/img1.png">
+									<img class="banner_pic1" src="images/img1.png">
 								</div>
 								<div class="list_one_txtll">
-									<h1 class="list_h1lls">可别错过了这些精彩片段</h1>
+									<h1 class="list_h1lls">å¯å«éè¿äºè¿äºç²¾å½©çæ®µ</h1>
 								</div>
 							</div>
 						</a> <a href="">
 							<div class="list_onell">
 								<div class="list_one_picll">
-									<img class="banner_pic1" src="${ctx}/js/phone/images/img1.png">
+									<img class="banner_pic1" src="images/img1.png">
 								</div>
 								<div class="list_one_txtll">
-									<h1 class="list_h1lls">可别错过了这些精彩片段</h1>
+									<h1 class="list_h1lls">å¯å«éè¿äºè¿äºç²¾å½©çæ®µ</h1>
 								</div>
 							</div>
 						</a> <a href="">
 							<div class="list_onell">
 								<div class="list_one_picll">
-									<img class="banner_pic1" src="${ctx}/js/phone/images/img1.png">
+									<img class="banner_pic1" src="images/img1.png">
 								</div>
 								<div class="list_one_txtll">
-									<h1 class="list_h1lls">可别错过了这些精彩片段</h1>
+									<h1 class="list_h1lls">å¯å«éè¿äºè¿äºç²¾å½©çæ®µ</h1>
 								</div>
 							</div>
 						</a> <a href="">
 							<div class="list_onell">
 								<div class="list_one_picll">
-									<img class="banner_pic1" src="${ctx}/js/phone/images/img1.png">
+									<img class="banner_pic1" src="images/img1.png">
 								</div>
 								<div class="list_one_txtll">
-									<h1 class="list_h1lls">可别错过了这些精彩片段</h1>
+									<h1 class="list_h1lls">å¯å«éè¿äºè¿äºç²¾å½©çæ®µ</h1>
 								</div>
 							</div>
 						</a> <a href="">
 							<div class="list_onell">
 								<div class="list_one_picll">
-									<img class="banner_pic1" src="${ctx}/js/phone/images/img1.png">
+									<img class="banner_pic1" src="images/img1.png">
 								</div>
 								<div class="list_one_txtll">
-									<h1 class="list_h1lls">可别错过了这些精彩片段</h1>
+									<h1 class="list_h1lls">å¯å«éè¿äºè¿äºç²¾å½©çæ®µ</h1>
 								</div>
 							</div>
 						</a> <a href="">
 							<div class="list_onell">
 								<div class="list_one_picll">
-									<img class="banner_pic1" src="${ctx}/js/phone/images/img1.png">
+									<img class="banner_pic1" src="images/img1.png">
 								</div>
 								<div class="list_one_txtll">
-									<h1 class="list_h1lls">可别错过了这些精彩片段</h1>
+									<h1 class="list_h1lls">å¯å«éè¿äºè¿äºç²¾å½©çæ®µ</h1>
 								</div>
 							</div>
 						</a> <a href="">
 							<div class="list_onell">
 								<div class="list_one_picll">
-									<img class="banner_pic1" src="${ctx}/js/phone/images/img1.png">
+									<img class="banner_pic1" src="images/img1.png">
 								</div>
 								<div class="list_one_txtll">
-									<h1 class="list_h1lls">可别错过了这些精彩片段</h1>
+									<h1 class="list_h1lls">å¯å«éè¿äºè¿äºç²¾å½©çæ®µ</h1>
 								</div>
 							</div>
 						</a> <a href="">
 							<div class="list_onell">
 								<div class="list_one_picll">
-									<img class="banner_pic1" src="${ctx}/js/phone/images/img1.png">
+									<img class="banner_pic1" src="images/img1.png">
 								</div>
 								<div class="list_one_txtll">
-									<h1 class="list_h1lls">可别错过了这些精彩片段</h1>
+									<h1 class="list_h1lls">å¯å«éè¿äºè¿äºç²¾å½©çæ®µ</h1>
 								</div>
 							</div>
 						</a> <a href="">
 							<div class="list_onell">
 								<div class="list_one_picll">
-									<img class="banner_pic1" src="${ctx}/js/phone/images/img1.png">
+									<img class="banner_pic1" src="images/img1.png">
 								</div>
 								<div class="list_one_txtll">
-									<h1 class="list_h1lls">可别错过了这些精彩片段</h1>
+									<h1 class="list_h1lls">å¯å«éè¿äºè¿äºç²¾å½©çæ®µ</h1>
 								</div>
 							</div>
 						</a> <a href="">
 							<div class="list_onell">
 								<div class="list_one_picll">
-									<img class="banner_pic1" src="${ctx}/js/phone/images/img1.png">
+									<img class="banner_pic1" src="images/img1.png">
 								</div>
 								<div class="list_one_txtll">
-									<h1 class="list_h1lls">可别错过了这些精彩片段</h1>
+									<h1 class="list_h1lls">å¯å«éè¿äºè¿äºç²¾å½©çæ®µ</h1>
 								</div>
 							</div>
 						</a>
@@ -1651,55 +1688,55 @@
 						<a href="">
 							<div class="list_one">
 								<div class="list_one_pic">
-									<img class="banner_pic1" src="${ctx}/js/phone/images/zhu.jpg">
+									<img class="banner_pic1" src="images/zhu.jpg">
 								</div>
 								<div class="list_one_txt">
-									<h1 class="list_h1s">公司介绍</h1>
+									<h1 class="list_h1s">å¬å¸ä»ç»</h1>
 								</div>
 							</div>
 						</a> <a href="">
 							<div class="list_one">
 								<div class="list_one_pic">
-									<img class="banner_pic1" src="${ctx}/js/phone/images/zhu.jpg">
+									<img class="banner_pic1" src="images/zhu.jpg">
 								</div>
 								<div class="list_one_txt">
-									<h1 class="list_h1s">公司介绍</h1>
+									<h1 class="list_h1s">å¬å¸ä»ç»</h1>
 								</div>
 							</div>
 						</a> <a href="">
 							<div class="list_one">
 								<div class="list_one_pic">
-									<img class="banner_pic1" src="${ctx}/js/phone/images/zhu.jpg">
+									<img class="banner_pic1" src="images/zhu.jpg">
 								</div>
 								<div class="list_one_txt">
-									<h1 class="list_h1s">公司介绍</h1>
+									<h1 class="list_h1s">å¬å¸ä»ç»</h1>
 								</div>
 							</div>
 						</a> <a href="">
 							<div class="list_one">
 								<div class="list_one_pic">
-									<img class="banner_pic1" src="${ctx}/js/phone/images/zhu.jpg">
+									<img class="banner_pic1" src="images/zhu.jpg">
 								</div>
 								<div class="list_one_txt">
-									<h1 class="list_h1s">公司介绍</h1>
+									<h1 class="list_h1s">å¬å¸ä»ç»</h1>
 								</div>
 							</div>
 						</a> <a href="">
 							<div class="list_one">
 								<div class="list_one_pic">
-									<img class="banner_pic1" src="${ctx}/js/phone/images/zhu.jpg">
+									<img class="banner_pic1" src="images/zhu.jpg">
 								</div>
 								<div class="list_one_txt">
-									<h1 class="list_h1s">公司介绍</h1>
+									<h1 class="list_h1s">å¬å¸ä»ç»</h1>
 								</div>
 							</div>
 						</a> <a href="">
 							<div class="list_one">
 								<div class="list_one_pic">
-									<img class="banner_pic1" src="${ctx}/js/phone/images/zhu.jpg">
+									<img class="banner_pic1" src="images/zhu.jpg">
 								</div>
 								<div class="list_one_txt">
-									<h1 class="list_h1s">公司介绍</h1>
+									<h1 class="list_h1s">å¬å¸ä»ç»</h1>
 								</div>
 							</div>
 						</a>
@@ -1710,28 +1747,28 @@
 						<a href="tel:0551-63474223">
 							<div class="list_one">
 								<div class="list_one_pic">
-									<img class="banner_pic1" src="${ctx}/js/phone/images/zhu1.png">
+									<img class="banner_pic1" src="images/zhu1.png">
 								</div>
 								<div class="list_one_txt">
-									<h1 class="list_h1">刘经理：010-57125663</h1>
+									<h1 class="list_h1">åç»çï¼010-57125663</h1>
 								</div>
 							</div>
 						</a> <a href="tel:0551-63474223">
 							<div class="list_one">
 								<div class="list_one_pic">
-									<img class="banner_pic1" src="${ctx}/js/phone/images/zhu1.png">
+									<img class="banner_pic1" src="images/zhu1.png">
 								</div>
 								<div class="list_one_txt">
-									<h1 class="list_h1">刘经理：010-57125663</h1>
+									<h1 class="list_h1">åç»çï¼010-57125663</h1>
 								</div>
 							</div>
 						</a> <a href="tel:0551-63474223">
 							<div class="list_one">
 								<div class="list_one_pic">
-									<img class="banner_pic1" src="${ctx}/js/phone/images/zhu1.png">
+									<img class="banner_pic1" src="images/zhu1.png">
 								</div>
 								<div class="list_one_txt">
-									<h1 class="list_h1">刘经理：010-57125663</h1>
+									<h1 class="list_h1">åç»çï¼010-57125663</h1>
 								</div>
 							</div>
 						</a>
@@ -1741,7 +1778,7 @@
 		</div>
 	</div>
 	<div class="footer clearfix">
-		<a href=""><i></i>电话咨询</a> <a href=""><i></i>QQ咨询</a>
+		<a href=""><i></i>电话</a> <a href=""><i></i>QQ</a>
 	</div>
 	<script>
 		var mySwiper = new Swiper('.swiper-container', {
@@ -1771,7 +1808,7 @@
 			e.preventDefault();
 			mySwiper2.swipeNext()
 		});
-		//tab切换
+		//tabåæ¢
 		window.onload = function() {
 			var a = $("#slides a");
 			var b = $(".neir>li");
@@ -1801,8 +1838,8 @@
 				return false;
 			});
 		});
-		$(".neir .row a[data-new=new]").show();//默认显示最新的项目
-		function tagsFilter(obja, type) {//obja是当前的a标签，type是项目类型从0-6，all,new,all是所有项目，new是最新的
+		$(".neir .row a[data-new=new]").show();//é»è®¤æ¾ç¤ºææ°çé¡¹ç®
+		function tagsFilter(obja, type) {//objaæ¯å½åçaæ ç­¾ï¼typeæ¯é¡¹ç®ç±»åä»0-6ï¼all,new,allæ¯ææé¡¹ç®ï¼newæ¯ææ°ç
 			var oText = obja.text();
 			var newTit = $('.newTit h3').text(oText);
 			$(".item_one").hide();
@@ -1825,7 +1862,7 @@
 		//        var tokenn='yicms';
 		//        $.ajax({
 		//            type:"post",
-		//            url:"ajax地址",
+		//            url:"ajaxå°å",
 		//            dataType:"json",
 		//            data:{
 		//                info:data

@@ -95,11 +95,13 @@
 					<div class="navbar-header" style="height: 60px;">
 						<a class="navbar-minimalize minimalize-styl-2 btn btn-primary "
 							href="#"><i class="fa fa-bars"></i> </a>
-						<form role="search" class="navbar-form-custom" method="post"
-							action="search_results.html">
+
+						 <form role="search" class="navbar-form-custom" method="post"
+							action="webpage/phone/index.jsp">
 							<div class="form-group">
 								<button
-									class="navbar-minimalize minimalize-styl-2 btn btn-primary">
+									class="navbar-minimalize minimalize-styl-2 btn btn-primary"
+									id="review_btn">
 									<i class="fa">预览</i>
 								</button>
 
@@ -108,6 +110,7 @@
 
 							</div>
 						</form>
+
 					</div>
 
 
@@ -755,6 +758,10 @@
 			$(".J_iframe").contents().find("body").attr("onclick",
 					"parent.frameBodyClick()");
 		}
+		/* //预览手机界面
+		$("#review_btn").bind("click", function() {
+			alert(1)
+		}) */
 	</script>
 </body>
 
