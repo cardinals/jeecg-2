@@ -74,130 +74,26 @@
 			<ul class="neir"
 				style="width: 95%; margin-left: 2%; border: rgba(37, 195, 137, 0) 1px solid; overflow: hidden; min-height: 240px; padding-bottom: 80px;"
 				id="ul2">
-				<li class="active">
-					<div class="newTit clearfix"></div>
-					<div class="row" style="min-height: 330px;">
-						<c:forEach var="secondMenu" items="${secondMenu}"
-							varStatus="status">
-							<a href="" class="item_one" style="display: block;"
-								data-type="all"> <img class="gntub"
-								src="phone/images/tu1.png">
-								<div class="tet2">
-									<span><h2>${secondMenu.functionName}</h2></span>
-								</div>
-							</a>
-						</c:forEach>
-					</div>
-				</li>
-				<li class="pro">
-					<div class="one_itme" id="li_two">
-						<a href="">
-							<div class="list_onell">
-								<div class="list_one_picll">
-									<img class="banner_pic1" src="phone/images/two1.png">
-								</div>
-								<div class="list_one_txtll">
-									<h1 class="list_h1ll">二次开发</h1>
-									<span></span>
-								</div>
-							</div>
-						</a> 
-					</div>
-				</li>
-				<li class="pro">
-					<div class="one_itme" id="li_three">
-						<a href="">
-							<div class="list_onell">
-								<div class="list_one_picll">
-									<img class="banner_pic1" src="phone/images/two6.png">
-								</div>
-								<div class="list_one_txtll">
-									<h1 class="list_h1ll">公司人员</h1>
-								</div>
-							</div>
-						</a> 
-					</div>
-				</li>
-				<li class="pro">
-					<div class="one_itmelll" id="li_four">
-						<a href="">
-							<div class="list_onell">
-								<div class="list_one_picll">
-									<img class="banner_pic1" src="phone/images/two7.jpg">
-								</div>
-								<div class="list_one_txtll">
-									<h1 class="list_h1ll">多种培训方式 让您快速成为网站专家</h1>
-								</div>
-							</div>
-						</a> 
-					</div>
-				</li>
-				<li class="pro">
-					<div class="one_itme" id="li_five">
-						<a href="" class="item_one"> <img class="gntub"
-							src="phone/images/two8.png">
-							<div class="tet2">
-								<span>微信行业</span>
-							</div>
-						</a> 
-					</div>
-				</li>
-				<li class="pro">
-					<div>
-						<a href="">
-							<div class="list_one">
-								<div class="list_one_pic">
-									<img class="banner_pic1" src="phone/images/two9.png">
-								</div>
-								<div class="list_one_txt">
-									<h1 class="list_h1sz" style="width: 96%;">一次性低价投入，无限制使用</h1>
-								</div>
-							</div>
-						</a> 
-					</div>
-				</li>
-				<li class="pro">
-					<div class="one_itme" id="li_seven">
-						<a href="">
-							<div class="list_onell">
-								<div class="list_one_picll">
-									<img class="banner_pic1" src="phone/images/img1.png">
-								</div>
-								<div class="list_one_txtll">
-									<h1 class="list_h1lls">可别错过了这些精彩片段</h1>
-								</div>
-							</div>
-						</a> 
-					</div>
-				</li>
-				<li class="pro">
-					<div class="one_itme" id="li_one">
-						<a href="">
-							<div class="list_one">
-								<div class="list_one_pic">
-									<img class="banner_pic1" src="phone/images/zhu.jpg">
-								</div>
-								<div class="list_one_txt">
-									<h1 class="list_h1s">公司介绍</h1>
-								</div>
-							</div>
-						</a> 
-					</div>
-				</li>
-				<li class="pro">
-					<div class="one_itme" id="li_nigth">
-						<a href="tel:0551-63474223">
-							<div class="list_one">
-								<div class="list_one_pic">
-									<img class="banner_pic1" src="phone/images/zhu1.png">
-								</div>
-								<div class="list_one_txt">
-									<h1 class="list_h1">刘经理：010-57125663</h1>
-								</div>
-							</div>
-						</a> 
-					</div>
-				</li>
+				<c:forEach var="firstMenu" items="${firstMenu}" varStatus="status1">
+					<li class="pro">
+						<div class="newTit clearfix"></div>
+						<div class="row" style="min-height: 330px;">
+							<c:forEach var="secondMenu" items="${secondMenu}"
+								varStatus="status">
+								<c:if
+									test="${firstMenu.functionName eq secondMenu.TSFunction.functionName}">
+									<a href="" class="item_one" style="display: block;"
+										data-type="all"> <img class="gntub"
+										src="phone/images/tu1.png">
+										<div class="tet2">
+											<span><h2>${secondMenu.functionName}</h2></span>
+										</div>
+									</a>
+								</c:if>
+							</c:forEach>
+						</div>
+					</li>
+				</c:forEach>
 			</ul>
 		</div>
 	</div>
@@ -232,7 +128,7 @@
 			e.preventDefault();
 			mySwiper2.swipeNext()
 		});
-		//tabåæ¢
+		//tab切换
 		window.onload = function() {
 			var a = $("#slides a");
 			var b = $(".neir>li");
@@ -262,8 +158,8 @@
 				return false;
 			});
 		});
-		$(".neir .row a[data-new=new]").show();//é»è®¤æ¾ç¤ºææ°çé¡¹ç®
-		function tagsFilter(obja, type) {//objaæ¯å½åçaæ ç­¾ï¼typeæ¯é¡¹ç®ç±»åä»0-6ï¼all,new,allæ¯ææé¡¹ç®ï¼newæ¯ææ°ç
+		$(".neir .row a[data-new=new]").show();//默认显示最新的项目
+		function tagsFilter(obja, type) {//obja是当前的a标签，type是项目类型从0-6，all,new,all是所有项目，new是最新的
 			var oText = obja.text();
 			var newTit = $('.newTit h3').text(oText);
 			$(".item_one").hide();
