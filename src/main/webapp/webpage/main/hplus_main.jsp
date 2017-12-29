@@ -97,16 +97,16 @@
 							href="#"><i class="fa fa-bars"></i> </a>
 
 						 <form role="search" class="navbar-form-custom" method="post"
-							action="webpage/phone/index.jsp">
+							action="search_result.html">
 							<div class="form-group">
-								<button
+								<!-- <button
 									class="navbar-minimalize minimalize-styl-2 btn btn-primary"
 									id="review_btn">
 									<i class="fa">预览</i>
-								</button>
+								</button> -->
 
-								<!-- <input type="text" placeholder="欢迎使用Jeecg快速开发平台 …"
-									class="form-control" name="top-search" id="top-search"> -->
+								<input type="text" placeholder="欢迎使用Jeecg快速开发平台 …"
+									class="form-control" name="top-search" id="top-search"> 
 
 							</div>
 						</form>
