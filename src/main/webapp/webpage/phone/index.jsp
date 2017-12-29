@@ -61,7 +61,7 @@
 									</span>
 								</div>
 							</a>
-							<c:if test='${status.count%4 eq 0}'>
+							<c:if test='${status.count%4 eq 0 || status.last}'>
 								</li>
 							</c:if>
 
@@ -82,7 +82,7 @@
 								varStatus="status">
 								<c:if
 									test="${firstMenu.functionName eq secondMenu.TSFunction.functionName}">
-									<a href="" class="item_one" style="display: block;"
+									<a href="${secondMenu.functionUrl}" class="item_one" style="display: block;"
 										data-type="all"> <img class="gntub"
 										src="phone/images/tu1.png">
 										<div class="tet2">
