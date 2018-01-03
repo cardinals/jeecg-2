@@ -17,7 +17,7 @@
 		<hibernate-jpa.version>1.0.1.Final</hibernate-jpa.version>
 
 		<!-- 工作流 -->
-		<activiti.version>5.11</activiti.version>
+		<activiti.version>5.18.0</activiti.version>
 		<mybatis.version>3.1.1</mybatis.version>
 
 		<!-- 辅助依赖包 -->
@@ -280,7 +280,7 @@
 		</dependency>
 
 		<!--工作流依赖包 -->
-		<!--
+		
 		<dependency>
 			<groupId>org.activiti</groupId>
 			<artifactId>activiti-engine</artifactId>
@@ -291,7 +291,7 @@
 			<artifactId>activiti-spring</artifactId>
 			<version>${activiti.version}</version>
 		</dependency>
-		-->
+		
 		<!-- mybatis 20170218-去掉无效引用-scott
 		<dependency>
 			<groupId>org.mybatis</groupId>
