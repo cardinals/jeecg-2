@@ -617,7 +617,8 @@ public class LoginController extends BaseController {
 		if (deviceType.equals(DeviceType.IOS) || deviceType.equals(DeviceType.ANDROID)) {
             return new ModelAndView("redirect:/phoneController.do?review");
         }
-		return new ModelAndView("main/hplushome");
+		//return new ModelAndView("main/hplushome");
+		return new ModelAndView("phone/medusa");
 	}
 
 	/**
