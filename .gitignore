@@ -1,1 +1,7 @@
 /target/
+/pom.xml
+.classpath
+.gitignore
+.settings
+dbconfig.properties
+jeecg_database.properties
