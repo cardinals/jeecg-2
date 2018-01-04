@@ -80,6 +80,7 @@
 		<filter-name>ecsideExport</filter-name>
 		<url-pattern>*</url-pattern>
 	</filter-mapping>
+	
 	<listener>
 		<description>Introspector缓存清除监听器</description>
 		<listener-class>org.springframework.web.util.IntrospectorCleanupListener</listener-class>
@@ -124,7 +125,26 @@
 		<url-pattern>*.action</url-pattern>
 	</servlet-mapping>
 	
+<!-- 流程配置开始 -->
+    <!-- Restlet adapter, used to expose modeler functionality through REST -->
+     <servlet>
+    <servlet-name>ExplorerRestletServlet</servlet-name>
+    <servlet-class>org.restlet.ext.servlet.ServerServlet</servlet-class>
+    <init-param>
+      <param-name>org.restlet.application</param-name>
+      <param-value>com.jeecg.activiti.rest.ExplorerRestApplication</param-value>
+    </init-param>
+  </servlet>
+  <servlet>
+    <servlet-name>RestletServlet</servlet-name>
+    <servlet-class>org.restlet.ext.servlet.ServerServlet</servlet-class>
+    <init-param>
+      <param-name>org.restlet.application</param-name>
+      <param-value>org.activiti.rest.service.application.ActivitiRestServicesApplication</param-value>
+    </init-param>
+  </servlet> 
 
+<!-- 流程配置结束 -->
 	<!-- 集成cxf webservice接口
 	 <servlet>  
         <description>Apache CXF Endpoint</description>  
