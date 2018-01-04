@@ -92,6 +92,8 @@
 		<property name="runMode" value="test_mode" />
 	</bean>
 	
+	<!-- <mvc:resources mapping="/modeler/**" location="/modeler/" cache-period="31556926"/> -->
+	
 	<!-- 拦截器 -->
 	<mvc:interceptors>
 		<mvc:interceptor>
